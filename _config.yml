@@ -2,7 +2,7 @@
 title: Casie's Awesome and Exciting Website
 email: casieczapski@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  A budding UI Designer's developmental oulet
+  A budding UI Designer's developmental outlet
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://cczapski.github.io.com" # the base hostname & protocol for your site
 twitter_username: casczap
