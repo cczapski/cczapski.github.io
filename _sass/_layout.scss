@@ -2,18 +2,16 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    @include borderBottom($mdblue);
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
 .site-title {
-    font-size: 30px;
-    font-family: 'Quando', sans-serif;
-    color: #6B1651;
+    @include font(2);
+    font-family: alverata-pe, sans-serif;
+    color: $dkblue;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
@@ -21,7 +19,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $dkblue;
     }
 }
 
@@ -110,7 +108,7 @@
 }
 
 .footer-col-wrapper {
-    font-size: 15px;
+    @include font(1.125);
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
@@ -168,7 +166,9 @@
 }
 
 .page-heading {
-    font-size: 20px;
+    @include font(1.65);
+    @include borderLeft($purple);
+    padding-left: 0.5em;
 }
 
 .post-list {
@@ -181,13 +181,13 @@
 }
 
 .post-meta {
-    font-size: $small-font-size;
+    @include font(0.875);
     color: $grey-color;
 }
 
 .post-link {
     display: block;
-    font-size: 24px;
+    @include font(1.125);
 }
 
 
@@ -200,12 +200,12 @@
 }
 
 .post-title {
-    font-size: 42px;
+    @include font(2.625);
     letter-spacing: -1px;
     line-height: 1;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        @include font(2.25);
     }
 }
 
@@ -213,26 +213,26 @@
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 32px;
+        @include font(2);
 
         @include media-query($on-laptop) {
-            font-size: 28px;
+            @include font(1.75);
         }
     }
 
     h3 {
-        font-size: 26px;
+        @include font(1.625);
 
         @include media-query($on-laptop) {
-            font-size: 22px;
+            @include font(1.375);
         }
     }
 
     h4 {
-        font-size: 20px;
+        @include font(1.25);
 
         @include media-query($on-laptop) {
-            font-size: 18px;
+            @include font(1.125);
         }
     }
 }
