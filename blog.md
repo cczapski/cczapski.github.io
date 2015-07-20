@@ -1,5 +1,5 @@
 ---
 layout: blog
-title: Blog
+title: Bloop
 permalink: /blog/
 ---
