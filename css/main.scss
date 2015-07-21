@@ -3,58 +3,45 @@
 ---
 @charset "utf-8";
 
+@import 'reset';
+@import 'colors';
+@import 'type';
+@import 'small';
+@import 'medium';
+@import 'large';
+@import 'responsive-nav';
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+// @import
+//         "base",
+//         "layout",
+//         "syntax-highlighting"
+// ;
 
 
-// Our variables
+// $base-font-family: ff-enzo-web, Arial, sans-serif;
+// $base-header-family: alverata-pe, Arial, sans-serif;
+// $base-font-size:   16px;
+// $small-font-size:  $base-font-size * 0.875;
+// $base-line-height: 1.5;
 
-// //V2 COLOR PALETTE
-$dkblue: #002534;
-$mdblue: #0093D1;
-$dkgrey: #99A8AE;
-$yellow: #CEC13E;
-$purple: #6B1651;
-$ltblue: #CCE9F6;
-$ltgrey: #D6DCDF; 
+// $spacing-unit:     30px;
 
-@mixin font($em){
-	font-size: ($em*16) + px;
-	font-size: ($em) + em;
-}
+// $text-color:       $dkblue;
+// $background-color: white;
+// $brand-color:      $mdblue;
 
-$base-font-family: ff-enzo-web, Arial, sans-serif;
-$base-header-family: alverata-pe, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+// $grey-color:       $dkgrey;
+// $grey-color-light: lighten($grey-color, 40%);
+// $grey-color-dark:  darken($grey-color, 25%);
 
-$spacing-unit:     30px;
+// // Width of the content area
+// $content-width:    800px;
 
-$text-color:       $dkblue;
-$background-color: white;
-$brand-color:      $mdblue;
+// $on-palm:          600px;
+// $on-laptop:        800px;
 
-$grey-color:       $dkgrey;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
 
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-//Border mixins 
-@mixin borderFull($color) {
-	border: 2px solid $color;
-}
-
-@mixin borderLeft($color) {
-	border-left: 2px solid $color;
-}
-
-@mixin borderBottom($color) {
-	border-bottom: 2px solid $color;
-}
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
@@ -62,21 +49,16 @@ $on-laptop:        800px;
 //         padding-right: $spacing-unit / 2;
 //         padding-left: $spacing-unit / 2;
 //     }
+// // }
+// @mixin media-query($device) {
+//     @media screen and (max-width: $device) {
+//         @content;
+//     }
 // }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
 
 
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+
 
 
 

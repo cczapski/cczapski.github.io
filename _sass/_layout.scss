@@ -1,3 +1,7 @@
+.link {
+    color: white;
+}
+
 /**
  * Site header
  */
@@ -92,12 +96,13 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background: $mdblue;
 }
 
 .footer-heading {
-    font-size: 18px;
+    @include font(1.125);
+    color: white;
     margin-bottom: $spacing-unit / 2;
 }
 
@@ -105,6 +110,7 @@
 .social-media-list {
     list-style: none;
     margin-left: 0;
+    color: white;
 }
 
 .footer-col-wrapper {

@@ -1,0 +1,28 @@
+@media screen and (min-width: 1200px) {
+	
+	.container {
+		
+	}
+
+	.page {
+		max-width: 3000px;
+	}
+
+	.portfolio-image, .blog-content {
+		width: 31%;
+		float: left;
+		margin-right: 3.5%;
+
+		&:nth-child(4) {
+			margin-right: 0;
+		}
+
+		&:nth-child(odd) {
+			margin-left: 0;
+		}
+	}
+
+	.hide {
+		display: none;
+	}
+}
