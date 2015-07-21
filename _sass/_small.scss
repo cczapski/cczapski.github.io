@@ -183,6 +183,15 @@ header {
 	}
 }
 
+.project-title {
+	color: white;
+	width: 90%;
+	position: relative;
+	margin: 0 auto;
+	opacity: 0;
+	transition: opacity 700ms ease;
+}
+
 .portfolio-image {
 	height: 250px;
 	position: relative;
@@ -200,15 +209,6 @@ header {
 		padding-top: 75px;
 		padding-left: 0;
 	}
-}
-
-.project-title {
-	color: white;
-	width: 90%;
-	position: relative;
-	margin: 0 auto;
-	opacity: 0;
-	transition: opacity 700ms ease;
 }
 
 .blog-content {
