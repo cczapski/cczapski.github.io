@@ -36,24 +36,25 @@ header {
 		margin-right: 1.5em;
 	}
 
+	li {
+		display: inline-block;
+		margin-left: 2em;
+
+		&:nth-child(1) {
+			@include borderRight($color4);
+		}
+
+		&:nth-child(2) {
+			@include borderRight($color5);
+		}
+
+		&:nth-child(3) {
+			@include borderRight($color2);
+		}
+	}
 }
 
-li {
-	display: inline-block;
-	margin-left: 2em;
 
-	&:nth-child(1) {
-		@include borderRight($color4);
-	}
-
-	&:nth-child(2) {
-		@include borderRight($color5);
-	}
-
-	&:nth-child(3) {
-		@include borderRight($color2);
-	}
-}
 
 // PAGES -------------------------------------------------------------
 
@@ -192,10 +193,12 @@ li {
 	h3 {
 		color: white;
 		font-weight: bold;
-		@include font(4);
+		@include font(3);
 		text-align: center;
 		text-shadow: 0px 2px 3px $color3;
 		line-height: 1.3;
+		padding-top: 75px;
+		padding-left: 0;
 	}
 }
 
@@ -213,10 +216,10 @@ li {
 	margin: 0 auto;
 	margin-top: 1em;
 
-	&:hover {
-		@include borderFull($color5);
-		@include boxShadow();
-	}
+	// &:hover {
+	// 	@include borderFull($color5);
+	// 	@include boxShadow();
+	// }
 
 	h3 {
 		color: $color5;
@@ -227,5 +230,36 @@ li {
 
 footer {
 	background: $color2;
-	height: 100px;
+	overflow: hidden;
+	color: white;
+
+	h6 {
+		color: white;
+		font-family: alverata-pe, Arial, sans-serif;
+	}
+
+	.col1, .col2, .col3 {
+		width: 100%;
+		padding: 1em;
+	}
+}
+
+.wrapper {
+	overflow: hidden;
+	width: 90%;
+	margin: 1em auto;
+}
+
+.icon {
+
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+
+        path {
+            fill: white;
+        }
+    }
 }

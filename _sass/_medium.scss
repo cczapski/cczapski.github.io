@@ -14,4 +14,13 @@
 		}
 	}
 
+	footer {
+
+		.col1, .col2, .col3 {
+			width: 50%;
+			float: left;
+			padding: 1em;
+		}
+	}
+
 } //end of media query
