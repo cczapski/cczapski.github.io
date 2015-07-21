@@ -1,7 +1,8 @@
 ---
-layout: portfolio
-title:  "Radlibs"
+layout: project
+project-title: Radlibs
 permalink: /portfolio/radlibs/
+id: radlibs
 ---
 
 ##About
