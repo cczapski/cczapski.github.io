@@ -7,10 +7,10 @@
 
 	.portfolio-image, .blog-content {
 		float: left;
-		width: 48%;
+		width: 40%;
 
-		&:nth-child(odd) {
-			margin-left: 4%;
+		&:nth-child(even) {
+			margin-left: 8%;
 		}
 	}
 

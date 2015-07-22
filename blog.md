@@ -6,20 +6,21 @@ permalink: /blog/
 <div class="post">
 
   <section class="content">
-    <h2 id="blog">Blog</h2>
+    <h2 id="blog">{{page.title}}</h2>
   
 
-  <ul class="blog-content">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <ul >
+      {% for post in site.posts %}
+        <li class="blog-content">
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+          <p>{{ post.content | truncatewords: 50 }} <a href="{{post.url}}">Read on</a></p>
+        </li>
+      {% endfor %}
+    </ul>
 
   </section>
 
