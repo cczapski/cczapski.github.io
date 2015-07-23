@@ -226,6 +226,20 @@ header {
 	}
 }
 
+.post-content {
+	ul {
+		list-style: disc inside;
+		padding-left: 2em;
+		padding-bottom: 1em;
+	}
+	
+	ol {
+		list-style: decimal inside;
+		padding-left: 2em;
+		padding-bottom: 1em;
+	}	
+}
+
 // FOOTER -------------------------------------------------------------
 
 footer {

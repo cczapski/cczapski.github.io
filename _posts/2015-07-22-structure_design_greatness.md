@@ -11,11 +11,11 @@ For those of you unfamiliar, a style guide is an amazing way to provide effectiv
 - design
 - code
 - future fumblings with design and/or code
-- many people working on the same thing all at once, and at different points in time
+- many people working on the same thing all at once, and at different points in time, potentially with different levels of involvement and knowledge
 
 And for those of you who have yet to meet me (or have met me and haven't yet figured it out), I'll give you a little hint as to why I'm so excited about this project -- I absolutely love structure and organization. 
 
-Prior to studying style guides more in depth, I heard the name early during the course amongst the other tools available to designers and developers and assumed it was simply a more detailed version of a style tile or an element collage. Today, I happily discovered that it is much more than that. Being "much  more than that" will really depend on the level of detail and depth that the creator(s) of a style guide provides, but the main point is that it's an amazing tool of direction and guidance to any user that should need to use, access or style either design or code within an existing element, component, page, or anything associated with the subject matter of the guide.
+Prior to studying style guides more in depth, I heard the name early during the course amongst the other tools available to designers and developers and assumed it was simply a more detailed version of a style tile or an element collage. Today, I happily discovered that it is much more than that. Being "much  more than that" will really depend on the level of detail and depth that the creator(s) of a style guide provides, but the main point is that it can be an amazing tool of direction and guidance to any user that should need to use, access or style either design or code within an existing element, component, page, or anything associated with the subject matter of the guide.
 
 For our style guide project, we get to choose from any of the projects we have completed thus far in the course. I have chosen to create a style guide for my website redesign project of Baby Acapulco's restaurant ([current website](http://babyacapulco.com/)). I chose this project in particular for a number of reasons:
 
@@ -24,6 +24,6 @@ For our style guide project, we get to choose from any of the projects we have c
 3. I want to use the structure of a style guide to help add consistency within my code to improve key elements across the site and create a more cohesive design.
 4. I love Baby A's.
  
-To kickstart my project, I decided to take Brad Frost's great advice and create an [interface inventory](http://bradfrost.com/blog/post/interface-inventory/) to help structure the current styles and elements, and provide direction on what I should focus the content of my style guide on. You can check out my interface inventory for my original Baby A's design [here](http://cczapski.github.io/tiy_assignments/blob/master/day_43/style_guide_babyAs) (Keynote file download).
+To kickoff my project this afternoon, I decided to take Brad Frost's great advice and create an [interface inventory](http://bradfrost.com/blog/post/interface-inventory/) to help structure the current styles and elements, and provide direction on what I should focus the content of my style guide on. An interface inventory is a great starting point for creating a style guide on an existing website because you go through the site taking screenshots of all of the existing styles of type, navigations, buttons etc. This method provides a great start what the content of the style guide should be.
 
-As a young coder eagerly looking for improvements in coding methods, I'm mostly excited to layout a more defined grid system and make a better attempt at object oriented CSS. Well, I leave you now to continue my journey of joining structure with design to hopefully achieve a higher level of greatness...
+I'm excited to continue this project and provide more direction and information surrounding the Baby A's redesign. As a young coder eagerly looking for improvements in coding methods, I'm mostly excited to layout a more defined grid system and make a better attempt at object oriented CSS. I leave you now to continue my journey of joining structure with design to hopefully achieve a higher level of greatness...
