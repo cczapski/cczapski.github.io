@@ -175,14 +175,14 @@ pre {
 // /**
 //  * Clearfix
 //  */
-// %clearfix {
+%clearfix {
 
-//     &:after {
-//         content: "";
-//         display: table;
-//         clear: both;
-//     }
-// }
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
 
 
 /**

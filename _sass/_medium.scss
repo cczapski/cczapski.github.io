@@ -6,12 +6,8 @@
 	}
 
 	.portfolio-image, .blog-content {
-		float: left;
-		width: 40%;
-
-		&:nth-child(even) {
-			margin-left: 8%;
-		}
+		max-width: 500px;
+		margin: 1.8em auto;
 	}
 
 	footer {

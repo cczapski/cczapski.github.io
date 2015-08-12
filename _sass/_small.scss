@@ -65,13 +65,13 @@ header {
 
 .page {
 	padding-top: 1.8em;
-	margin: 0 auto;
 	overflow: hidden;
 	max-width: 500px;
 	margin-bottom: 1em;
 
 	button {
 		float: right;
+		clear: left;
 		margin-top: 2em;
 		padding: 1em;
 		font-family: 'alverata-pe', sans-serif;
@@ -85,6 +85,10 @@ header {
 			color: $color2;
 		}
 	}
+ }
+
+ .work-container {
+ 	overflow: hidden;
  }
 
 #work {
