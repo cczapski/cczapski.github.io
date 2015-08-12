@@ -105,6 +105,32 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /**
+ * Buttons
+ */
+
+// button {
+//     padding: 15px;
+//     font-family: 'alverata-pe', sans-serif;
+//     background: $color2;
+//     @include borderFull($color2);
+    
+//     cursor: pointer;
+
+//     a {
+//         color: white;
+//         @include font(1); 
+        
+//         &:hover {
+//             colot: $color2; 
+//         }
+//     }
+
+//     &:hover {
+//         background: white;
+//     }
+// }
+
+/**
  * Blockquotes
  */
 // blockquote {

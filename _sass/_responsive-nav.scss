@@ -42,11 +42,11 @@
   display: block;
   text-decoration: none;
   float: right;
-  padding-top: 2.1em;
-  width: 20%;
+  padding-top: 1.8em;
   text-align: right;
   margin-right: 1em;
-  @include font(1.1);
+  margin-left: 1em;
+  @include font(1.2);
 }
 
 .nav-toggle span {

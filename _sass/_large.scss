@@ -1,28 +1,16 @@
-@media screen and (min-width: 1200px) {
-	
-	.container {
-		
+@media screen and (min-width: 1000px) {
+	.work-container {
+		overflow: hidden;
+		max-width: 1200px;
 	}
 
-	.page {
-		max-width: 3000px;
-	}
-
-	.portfolio-image, .blog-content {
-		
+	.portfolio-image {
 		float: left;
-		margin-right: 3.5%;
+		width: 45%;
 
-		&:nth-child(4) {
-			margin-right: 0;
-		}
-
-		&:nth-child(odd) {
-			margin-left: 0;
+		&:nth-child(even) {
+			margin-left: 10%;
 		}
 	}
 
-	.hide {
-		display: none;
-	}
 }

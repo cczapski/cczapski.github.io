@@ -1,13 +1,16 @@
+@media screen and (min-width: 560px) {
+
+	.work-container {
+		max-width: 500px;
+		margin: 0 auto;
+	}
+} //end of media query
+
 @media screen and (min-width: 720px) {
 
 	.page {
 		overflow: hidden;
 		max-width: 1200px;
-	}
-
-	.portfolio-image, .blog-content {
-		max-width: 500px;
-		margin: 1.8em auto;
 	}
 
 	footer {

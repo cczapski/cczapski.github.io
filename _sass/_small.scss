@@ -19,7 +19,7 @@ header, nav, ul {
 }
 
 header {
-	padding-bottom: 1em;
+	padding-bottom: 15px;
 	@include borderBottom($color2);
 
 	h1, nav {
@@ -27,18 +27,18 @@ header {
 	}
 
 	h1 {
-		margin-left: 1em;
-		margin-top: 0.3em;
+		margin-left: 30px;
+		margin-top: 10px;
 	}
 
 	nav {
 		float: right;
-		margin-right: 1.5em;
+		margin-right: 30px;
 	}
 
 	li {
 		display: inline-block;
-		margin-left: 2em;
+		margin-left: 40px;
 
 		&:nth-child(1) {
 			@include borderRight($color4);
@@ -59,31 +59,20 @@ header {
 // PAGES -------------------------------------------------------------
 
 .content {
-	margin: 2em;
 	overflow: hidden;
 }
 
 .page {
-	padding-top: 1.8em;
 	overflow: hidden;
-	max-width: 500px;
-	margin-bottom: 1em;
+	margin-bottom: 60px;
+
+	h2 {
+		margin-top: 40px;
+	}
 
 	button {
 		float: right;
-		clear: left;
-		margin-top: 2em;
-		padding: 1em;
-		font-family: 'alverata-pe', sans-serif;
-		background: $color2;
-		@include borderFull($color2);
-		color: white;
-		@include font(1);
-
-		&:hover {
-			background: white;
-			color: $color2;
-		}
+	    margin-top: 30px;
 	}
  }
 
@@ -103,6 +92,27 @@ header {
 	@include borderLeft($color2);
 }
 
+#worldteach {
+	background: url("../images/worldteach.png");
+	background-size: cover;
+	background-position: center;
+
+	&:hover {
+		background: 
+			linear-gradient(
+				rgba(31, 181, 243, 0.7),
+				rgba(31, 181, 243, 0.7)
+			),
+			url("../images/worldteach.png");
+		background-size: cover;
+		background-position: center;
+
+		.project-title {
+			opacity: 1;
+		}
+	}
+}
+
 #radlibs {
 	background: url("../images/radlibs.png");
 	background-size: cover;
@@ -111,8 +121,8 @@ header {
 	&:hover {
 		background: 
 			linear-gradient(
-				rgba(31, 181, 243, 0.5),
-				rgba(31, 181, 243, 0.5)
+				rgba(31, 181, 243, 0.7),
+				rgba(31, 181, 243, 0.7)
 			),
 			url("../images/radlibs.png");
 		background-size: cover;
@@ -132,8 +142,8 @@ header {
 	&:hover {
 		background: 
 			linear-gradient(
-				rgba(206, 193, 62, 0.5),
-				rgba(206, 193, 62, 0.5)
+				rgba(31, 181, 243, 0.7),
+				rgba(31, 181, 243, 0.7)
 			),
 			url("../images/baby_a.png");
 		background-size: cover;
@@ -153,8 +163,8 @@ header {
 	&:hover {
 		background: 
 			linear-gradient(
-				rgba(206, 193, 62, 0.5),
-				rgba(206, 193, 62, 0.5)
+				rgba(31, 181, 243, 0.7),
+				rgba(31, 181, 243, 0.7)
 			),
 			url("../images/css_zen_garden.png");
 		background-size: cover;
@@ -174,8 +184,8 @@ header {
 	&:hover {
 		background: 
 			linear-gradient(
-				rgba(206, 193, 62, 0.5),
-				rgba(206, 193, 62, 0.5)
+				rgba(31, 181, 243, 0.7),
+				rgba(31, 181, 243, 0.7)
 			),
 			url("../images/goodreads.png");
 		background-size: cover;
@@ -187,6 +197,10 @@ header {
 	}
 }
 
+// .work-buttons {
+// 	margin: 0 auto;
+// }
+
 .project-title {
 	color: white;
 	width: 90%;
@@ -194,13 +208,53 @@ header {
 	margin: 0 auto;
 	opacity: 0;
 	transition: opacity 700ms ease;
+
+	.live, .github {
+		border: 2px solid $color5;
+		background: $color5;
+
+		&:hover {
+			background: white;
+			border: 2px solid $color5;
+
+			a {
+				color: $color5;
+			}
+		}
+	}
+
+	.live {
+		float: left;
+	}
+
+	.github {
+		float: right;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	.work-buttons {
+		max-width: 200px;
+		margin: 0 auto;
+	}
+
+	.live, .github {
+		float: none;
+	}
+
+	.github {
+		margin-bottom: 15px;
+	}
+
+	.live {
+		margin-left: 26px;
+	}
 }
 
 .portfolio-image {
-	height: 250px;
+	min-height: 250px;
 	position: relative;
-	margin: 0 auto;
-	margin-top: 2em;
+	margin: 60px auto;
 	overflow: hidden;
 
 	h3 {
@@ -208,12 +262,14 @@ header {
 		font-weight: bold;
 		@include font(3);
 		text-align: center;
-		text-shadow: 0px 2px 3px $color3;
+		text-shadow: 0px 2px 3px $color1;
 		line-height: 1.3;
-		padding-top: 75px;
+		padding-top: 50px;
 		padding-left: 0;
 	}
 }
+
+
 
 .blog-content {
 	position: relative;
@@ -278,6 +334,33 @@ footer {
 
         path {
             fill: white;
+        }
+    }
+}
+
+// BUTTONS -------------------------------------------------------------
+button {
+    font-family: 'alverata-pe', sans-serif;
+    background: $color2;
+    @include borderFull($color2);
+    min-height: 60px;
+    cursor: pointer;
+
+    a {
+    	padding: 15px;
+        color: white;
+        @include font(1.4); 
+        
+        &:hover {
+            color: $color2; 
+        }
+    }
+
+    &:hover {
+        background: white;
+
+        a {
+        	color: $color2;
         }
     }
 }
