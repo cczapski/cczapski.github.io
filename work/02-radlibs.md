@@ -3,6 +3,8 @@ layout: project
 project-title: Radlibs
 permalink: /portfolio/radlibs/
 id: radlibs
+live: http://radlib.herokuapp.com/
+github: https://github.com/cczapski/Radlibs
 ---
 
 ##About

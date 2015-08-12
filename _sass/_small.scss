@@ -76,11 +76,15 @@ header {
 	}
  }
 
+.page-content {
+	margin-top: 45px;
+}
+
  .work-container {
  	overflow: hidden;
  }
 
-#work {
+#Work {
 	@include borderLeft($color4);
 }
 
@@ -246,9 +250,9 @@ header {
 		margin-bottom: 15px;
 	}
 
-	.live {
-		margin-left: 26px;
-	}
+	// .live {
+	// 	margin-left: 26px;
+	// }
 }
 
 .portfolio-image {
@@ -269,7 +273,9 @@ header {
 	}
 }
 
-
+.blog-row {
+	overflow: hidden;
+}
 
 .blog-content {
 	position: relative;
@@ -286,7 +292,13 @@ header {
 	}
 }
 
+.post {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
 .post-content {
+
 	ul {
 		list-style: disc inside;
 		padding-left: 2em;
@@ -321,7 +333,7 @@ footer {
 .wrapper {
 	overflow: hidden;
 	width: 90%;
-	margin: 1em auto;
+	margin: 15px auto;
 }
 
 .icon {
