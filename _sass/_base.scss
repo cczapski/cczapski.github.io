@@ -88,19 +88,19 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Links
  */
-a {
-    color: $mdblue;
-    text-decoration: none;
+// a {
+//     color: $mdblue;
+//     text-decoration: none;
 
-    &:visited {
-        color: darken($mdblue, 15%);
-    }
+//     &:visited {
+//         color: darken($mdblue, 15%);
+//     }
 
-    &:hover {
-        color: $text-color;
-        text-decoration: underline;
-    }
-}
+//     &:hover {
+//         color: $text-color;
+//         text-decoration: underline;
+//     }
+// }
 
 
 
@@ -125,28 +125,28 @@ a {
 /**
  * Code formatting
  */
-// pre,
-// code {
-//     @include font(0.938);
-//     border: 1px solid $grey-color-light;
-//     border-radius: 3px;
-//     background-color: #eef;
-// }
+pre,
+code {
+    @include font(0.938);
+    border: 1px solid $grey-color-light;
+    border-radius: 3px;
+    background-color: #eef;
+}
 
-// code {
-//     padding: 1px 5px;
-// }
+code {
+    padding: 1px 5px;
+}
 
-// pre {
-//     padding: 8px 12px;
-//     overflow-x: scroll;
+pre {
+    padding: 8px 12px;
+    overflow-x: scroll;
 
-//     > code {
-//         border: 0;
-//         padding-right: 0;
-//         padding-left: 0;
-//     }
-// }
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
 
 
 
@@ -183,6 +183,34 @@ a {
 //         clear: both;
 //     }
 // }
+
+
+/**
+ * Linear gradients
+ */
+@mixin linear-gradient($x, $y, $z, $opacity) {
+    -webkit-linear-gradient(
+        rgba($x, $y, $z, $opacity),
+        rgba($x, $y, $z, $opacity)
+    );
+    -moz-linear-gradient(
+        rgba($x, $y, $z, $opacity),
+        rgba($x, $y, $z, $opacity)
+    );
+    -ms-linear-gradient(
+        rgba($x, $y, $z, $opacity),
+        rgba($x, $y, $z, $opacity)
+    );
+    -o-linear-gradient(
+        rgba($x, $y, $z, $opacity),
+        rgba($x, $y, $z, $opacity)
+    );
+    linear-gradient(
+        rgba($x, $y, $z, $opacity),
+        rgba($x, $y, $z, $opacity)
+    );
+            
+}
 
 
 

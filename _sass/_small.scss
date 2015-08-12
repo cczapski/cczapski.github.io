@@ -67,7 +67,7 @@ header {
 	padding-top: 1.8em;
 	margin: 0 auto;
 	overflow: hidden;
-	max-width: 350px;
+	max-width: 500px;
 	margin-bottom: 1em;
 
 	button {
@@ -87,7 +87,7 @@ header {
 	}
  }
 
-#portfolio {
+#work {
 	@include borderLeft($color4);
 }
 
@@ -100,17 +100,17 @@ header {
 }
 
 #radlibs {
-	background: url("../images/radlibs_large.png");
+	background: url("../images/radlibs.png");
 	background-size: cover;
 	background-position: center;
 
 	&:hover {
 		background: 
 			linear-gradient(
-				rgba(206, 193, 62, 0.5),
-				rgba(206, 193, 62, 0.5)
+				rgba(31, 181, 243, 0.5),
+				rgba(31, 181, 243, 0.5)
 			),
-			url("../images/radlibs_large.png");
+			url("../images/radlibs.png");
 		background-size: cover;
 		background-position: center;
 
@@ -121,7 +121,7 @@ header {
 }
 
 #babyAs {
-	background: url("../images/babyA_large.png");
+	background: url("../images/baby_a.png");
 	background-size: cover;
 	background-position: center;
 
@@ -131,7 +131,7 @@ header {
 				rgba(206, 193, 62, 0.5),
 				rgba(206, 193, 62, 0.5)
 			),
-			url("../images/babyA_large.png");
+			url("../images/baby_a.png");
 		background-size: cover;
 		background-position: center;
 
@@ -142,7 +142,7 @@ header {
 }
 
 #csszen {
-	background: url("../images/css_zen_garden_large.png");
+	background: url("../images/css_zen_garden.png");
 	background-size: cover;
 	background-position: center;
 
@@ -152,7 +152,7 @@ header {
 				rgba(206, 193, 62, 0.5),
 				rgba(206, 193, 62, 0.5)
 			),
-			url("../images/css_zen_garden_large.png");
+			url("../images/css_zen_garden.png");
 		background-size: cover;
 		background-position: center;
 
@@ -163,7 +163,7 @@ header {
 }
 
 #goodreads {
-	background: url("../images/goodreads_large.png");
+	background: url("../images/goodreads.png");
 	background-size: cover;
 	background-position: center;
 
@@ -173,7 +173,7 @@ header {
 				rgba(206, 193, 62, 0.5),
 				rgba(206, 193, 62, 0.5)
 			),
-			url("../images/goodreads_large.png");
+			url("../images/goodreads.png");
 		background-size: cover;
 		background-position: center;
 
