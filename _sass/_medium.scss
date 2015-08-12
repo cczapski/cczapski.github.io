@@ -13,6 +13,15 @@
 		max-width: 1200px;
 	}
 
+	.blog-content {
+		float: left;
+		width: 45%;
+
+		&:nth-child(even) {
+			margin-left: 10%;
+		}
+	}
+
 	footer {
 
 		.col1, .col2, .col3 {
