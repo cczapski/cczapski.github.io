@@ -16,6 +16,7 @@
 	.blog-content {
 		float: left;
 		width: 45%;
+		min-height: 330px;
 
 		&:nth-child(even) {
 			margin-left: 10%;

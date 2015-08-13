@@ -8,7 +8,7 @@ After spending about a week and a half not touching any code and focusing on the
 
 For practice, we were tasked to create three separate CodePens, each utilizing a different jQuery event, that would be a great addition to our last redesign project of the Goodreads website. Here's a quick snapshot of my design, produced solely in Adobe Illustrator:
 
-![snapshot of goodreads design in Adobe Illustrator](/images/blog_posts/first_jquery_codepens/goodreads_design_preview.png)
+![snapshot of goodreads design in Adobe Illustrator](/images/blog_posts/first_jquery_codepens/goodreads_design_preview.jpg)
 
 ##CodePen #1: Bookshelf Drop Down
 

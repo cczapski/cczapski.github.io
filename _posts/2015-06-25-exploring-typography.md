@@ -13,19 +13,19 @@ Although I was more comfortable being able to produce options in Photoshop, I st
 I got to these "concepts" from my word list about Baby A's by basically pulling together key words that seemed to fit together and creating different "feels" for Baby A's. Hearing other classmates examples of their concepts, I'm not quite sure I got them down correctly. With the small timeframe of one evening to throw all of these together, I simply decided to attack the type and see what I could come up with, links below for your viewing pleasure.
 
 ####Baby A's Type #1
-![Baby A's Type #1](/images/blog_posts/exploring_typography/babyA_type_1.png)
+![Baby A's Type #1](/images/blog_posts/exploring_typography/babyA_type_1.jpg)
 
 ####Baby A's Type #2
-![Baby A's Type #2](/images/blog_posts/exploring_typography/babyA_type_2.png)
+![Baby A's Type #2](/images/blog_posts/exploring_typography/babyA_type_2.jpg)
 
 ####Baby A's Type #3
-![Baby A's Type #3](/images/blog_posts/exploring_typography/babyA_type_3.png)
+![Baby A's Type #3](/images/blog_posts/exploring_typography/babyA_type_3.jpg)
 
 ####Baby A's Type #4
-![Baby A's Type #4](/images/blog_posts/exploring_typography/babyA_type_4.png)
+![Baby A's Type #4](/images/blog_posts/exploring_typography/babyA_type_4.jpg)
 
 ####Baby A's Type #5
-![Baby A's Type #5](/images/blog_posts/exploring_typography/babyA_type_5.png)
+![Baby A's Type #5](/images/blog_posts/exploring_typography/babyA_type_5.jpg)
 
 I'm excited to head into class this morning to get feedback on how my different type versions would actually fit with my current project of the restaurant website redesign of Baby A's. I should (should . . . ) have a three-page website by Monday with the option I choose!
 

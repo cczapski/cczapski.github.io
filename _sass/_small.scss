@@ -288,6 +288,12 @@ header {
 	}
 }
 
+.blog-container {
+	margin-top: 30px;
+	max-width: 800px;
+	margin: 30px auto;
+}
+
 .blog-page {
 	max-width: 700px;
 	margin: 0 auto;
@@ -301,11 +307,6 @@ header {
 	position: relative;
 	margin: 0 auto;
 	margin-top: 1em;
-
-	// &:hover {
-	// 	@include borderFull($color5);
-	// 	@include boxShadow();
-	// }
 
 	h3 {
 		color: $color5;
