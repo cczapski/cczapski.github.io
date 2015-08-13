@@ -6,7 +6,7 @@ permalink: /blog/
 <div class="post">
 
   <section class="content">
-    <h2 id="blog">{{page.title}}</h2>
+    <h2 id="Blog">{{page.title}}</h2>
   
 
     <ul >

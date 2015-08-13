@@ -64,6 +64,10 @@ a {
 	color: $color1;
 }
 
+.dark-blue {
+	color: $color1;
+}
+
 //Border mixins 
 @mixin borderFull($color) {
 	border: 2px solid $color;
