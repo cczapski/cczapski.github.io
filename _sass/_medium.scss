@@ -1,7 +1,16 @@
 @media screen and (min-width: 560px) {
 
 	.work-container {
-		max-width: 500px;
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	.portfolio-image {
+		min-height: 400px;
+	}
+
+	.work-buttons {
+		max-width: 400px;
 		margin: 0 auto;
 	}
 } //end of media query
