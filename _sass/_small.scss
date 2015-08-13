@@ -221,15 +221,25 @@ header {
 	.live, .github {
 		border: 2px solid $color5;
 		background: $color5;
+		
+		a:visited {
+			color: white;
+		}
 
 		&:hover {
 			background: white;
 			border: 2px solid $color5;
 
 			a {
-				color: $color5;
+				color: white;
+
+				&:visited {
+					color: $color2;
+				}
 			}
 		}
+
+
 	}
 
 	.live {
@@ -326,18 +336,20 @@ header {
 .about-container {
 	max-width: 600px;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 .about-me {
-	background: $color2;
+	// background: $color2;
+	border: 2px solid $color5;
 	overflow: hidden;
 	padding: 30px;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin: 30px auto;
+	max-width: 800px;
 
-	h3, h4, p, li {
-		color: white;
-	}
+	// h3, h4, p, li {
+	// 	color: white;
+	// }
 
 	h3 {
 		@include font(1.8);
@@ -365,6 +377,18 @@ header {
 		max-width: 275px;
 		width: 100%;
 	}
+}
+
+.more-about {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.connect {
+	border: 2px solid $color4;
+	padding: 20px 30px 30px 30px;
+	max-width: 300px;
+	margin: 30px auto;
 }
 
 // FOOTER -------------------------------------------------------------
@@ -421,6 +445,10 @@ button {
         &:hover {
             color: $color2; 
         }
+
+        &:visited {
+        	color: white;
+        }
     }
 
     &:hover {
@@ -430,4 +458,14 @@ button {
         	color: $color2;
         }
     }
+}
+
+.social-media-list {
+	a {
+		color: white;
+
+		&:hover {
+			color: $color5;
+		}
+	}
 }

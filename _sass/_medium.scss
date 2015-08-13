@@ -22,6 +22,25 @@
 		}
 	}
 
+	.more-container {
+		overflow: hidden;
+		max-width: 800px;
+		margin: 0 auto;
+
+		.more-about, .connect {
+			width: 47%;
+		}
+
+		.more-about {
+			float: left;
+		}
+
+		.connect {
+			margin-left: 6%;
+			float: right;
+		}
+	}
+
 	footer {
 
 		.col1, .col2, .col3 {
