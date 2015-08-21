@@ -13,6 +13,11 @@
 		max-width: 400px;
 		margin: 0 auto;
 	}
+
+	.this-that {
+		width: 50%;
+		float: left;
+	}
 } //end of media query
 
 @media screen and (min-width: 720px) {
@@ -25,7 +30,7 @@
 	.blog-content {
 		float: left;
 		width: 45%;
-		min-height: 330px;
+		min-height: 380px;
 
 		&:nth-child(even) {
 			margin-left: 10%;
@@ -61,3 +66,14 @@
 	}
 
 } //end of media query
+
+@media screen and (min-width: 785px) {
+	.small {
+		float: left;
+	}
+
+	.medium {
+		float: right;
+		margin-top: 35px;
+	}
+}

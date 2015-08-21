@@ -65,7 +65,7 @@ header {
 .post {
 	max-width: 1200px;
 	margin: 0 auto;
-	margin-bottom
+	margin-bottom: 30px;
 }
 
 .content {
@@ -219,6 +219,12 @@ header {
 	opacity: 0;
 	transition: opacity 700ms ease;
 
+	a {
+		color: white;
+		padding-top: 180px;
+		padding-bottom: 180px;
+	}
+
 	.live, .github {
 		border: 2px solid $color5;
 		background: $color5;
@@ -284,7 +290,7 @@ header {
 		text-align: center;
 		text-shadow: 0px 2px 3px $color1;
 		line-height: 1.3;
-		padding-top: 50px;
+		padding-top: 180px;
 		padding-left: 0;
 	}
 }
@@ -344,6 +350,20 @@ header {
 		}
 	}
 
+	.credit {
+		color: $color6;
+		border-bottom: none;
+		
+		&:hover {
+			color: $color5;
+		}
+
+		&:visited{
+			color: $color7;
+			border-bottom: none;
+		}
+	}
+
 	h2 {
 		@include borderLeft($color4);
 		font-weight: bold;
@@ -375,8 +395,12 @@ header {
 	}
 }
 
-.center {
-	max-width: 90%;
+article {
+	overflow: hidden;
+}
+
+.this-that, .prototype {
+	max-width: 550px;
 	margin: 0 auto;
 }
 
@@ -389,6 +413,22 @@ header {
 	}
 }
 
+.devices {
+	width: 100%;
+	overflow: hidden;
+}
+
+.small, .medium {
+	margin: 15px auto;
+}
+
+.small {
+	max-width: 240px;
+}
+
+.medium {
+	max-width: 463px;
+}
 
 // ABOUT -------------------------------------------------------------
 .about-container {

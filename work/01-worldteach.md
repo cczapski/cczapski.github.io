@@ -9,7 +9,7 @@ preview: /images/work/worldteach/home_laptop.png
 date: August 2015
 technologies: Adobe Illustrator and Photoshop, HTML, CSS, Sass, jQuery
 pages: Home, For Future + Current Volunteers, Choose Your Destination, Costa Rica Country Home Page
-short: WorldTeach is my final project for the accelarated UI Design course at the <a href="http://theironyard.com/">Iron Yard</a>, a redesign of the 2015 WorldTeach website. Please note, this project is not officially affliated with the actual WorldTeach organization and is simply an Iron Yard project.
+short: WorldTeach is my final project for the accelarated UI Design course at the <a href="http://theironyard.com/">Iron Yard</a>. This project is a fully responsive redesign of the 2015 WorldTeach website. Please note, this project is not officially affliated with the actual WorldTeach organization and is simply an Iron Yard project.
 ---
 
 ##### Research & Discovery
@@ -17,8 +17,10 @@ short: WorldTeach is my final project for the accelarated UI Design course at th
 With the two week timeframe to redesign 4 HTML pages with CSS, Sass, and jQuery, the first step in the process was research and discovery. My goal with this step was to determine the main goals of the organization and evaluate how the site design could align with those objectives - what is the core purpose and how could I use my newly formed design principles to clearly emulate that purpose to any user?
 
 I created a <a href="https://github.com/cczapski/WorldTeach">project proposal</a> that helped discover this main goal through organization research, user interviews, competitive market analysis, SWOT, keywords, this not that, and content analysis.
- 
-![This not That snapshot](/images/work/worldteach/this_not_that.png)
+
+<p class="this-that">
+    <img alt="This not That snapshot" src="/images/work/worldteach/this_not_that.png">  
+</p>
 
 Not only was I highly overwhelmed by the volume of content on the site, but I discovered most users were as well. To add to that conclusion, most users weren't sure of WorldTeach's main goal as an organization without having to dig through many pages. These conclusions led the way to defining the main goals of the redesign.
 
@@ -41,11 +43,13 @@ At this point, I chose my 4 pages and began to compile the most crucial, yet con
 
 A lot of my time centered around the content on the Costa Rica country page to attack the most content-heavy from the get go. I ended up condensing the many paragraphs of information into bulleted lists with options to "Learn More" again for the purpose of providing relevant and concise information to users first. Here you see a quick screenshot of the paper prototype process that ultimately led me to the final content and basic structure of the Costa Rica country page.
 
-![paper prototype of Costa Rica country page](/images/work/worldteach/paper_prototype_country_page_2.jpg)
+<p class="prototype">
+    <img alt="paper prototype of Costa Rica country page" src="/images/work/worldteach/paper_prototype_country_page_2.jpg">
+</p>
 
 ##### Style Exploration
 
-Once I had a good grasp on the content, I started exploring style with three different concepts of style tiles. As design more and more, I have begun to enjoy this process the most. I always surprise myself with the concept that ends up working the best.
+Once I had a good grasp on the content, I started exploring style with three different concepts of style tiles. As I design more and more, I have begun to enjoy this process the most. I always surprise myself with the concept that ends up working the best.
 
 For WorldTeach, the Vintage Travel Posters concept definitely creates the most motivating inspiration through the warm colors and bold, enticing font choices. User feedback agreed with this style the most and thus created the main style inspiration for the website.
 
@@ -70,7 +74,20 @@ The final step I took before jumping into code was to create basic comps through
 
 ![WorldTeach Comps](/images/work/worldteach/worldteach_comps.jpg)
 
+##### Final Product
 
-<a href='http://www.freepik.com/free-vector/screens-collection-free-vector_713789.htm'>Devices designed by Freepik</a>
+The final four pages of the website are completely responsive across multiple devices and browsers. The inspiration from the vintage travel posters helps create the warm, inviting and motivating aspects needed from the site in order to fully emulate the key goal of WorldTeach.
+
+<div class="devices">
+    <p class="small">
+        <img alt="Small Device Home Page" src="/images/work/worldteach/home_small.png">
+    </p>
+
+    <p class="medium">
+        <img alt="Medium Device Home Page" src="/images/work/worldteach/destinations_medium.png">
+    </p>
+
+</div>
+<a class="credit" href='http://www.freepik.com/free-vector/screens-collection-free-vector_713789.htm'>Devices designed by Freepik</a>
 
 
