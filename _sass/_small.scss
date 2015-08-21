@@ -206,10 +206,6 @@ header {
 	}
 }
 
-// .work-buttons {
-// 	margin: 0 auto;
-// }
-
 .project-title {
 	color: white;
 	width: 90%;
@@ -231,7 +227,7 @@ header {
 			border: 2px solid $color5;
 
 			a {
-				color: white;
+				color: $color5;
 
 				&:visited {
 					color: $color2;
@@ -428,6 +424,16 @@ footer {
             fill: white;
         }
     }
+}
+
+.footer-links {
+	a {
+		color: white;
+
+		&:hover {
+			color: $color5;
+		}
+	}
 }
 
 // BUTTONS -------------------------------------------------------------
