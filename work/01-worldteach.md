@@ -17,10 +17,8 @@ short: WorldTeach is my final project for the accelarated UI Design course at th
 With the two week timeframe to redesign 4 HTML pages with CSS, Sass, and jQuery, the first step in the process was research and discovery. My goal with this step was to determine the main goals of the organization and evaluate how the site design could align with those objectives - what is the core purpose and how could I use my newly formed design principles to clearly emulate that purpose to any user?
 
 I created a <a href="https://github.com/cczapski/WorldTeach">project proposal</a> that helped discover this main goal through organization research, user interviews, competitive market analysis, SWOT, keywords, this not that, and content analysis.
-
-<p class="center">
-    <img alt="This not That snapshot" src="/images/work/worldteach/this_not_that.png">  
-</p>
+ 
+![This not That snapshot](/images/work/worldteach/this_not_that.png)
 
 Not only was I highly overwhelmed by the volume of content on the site, but I discovered most users were as well. To add to that conclusion, most users weren't sure of WorldTeach's main goal as an organization without having to dig through many pages. These conclusions led the way to defining the main goals of the redesign.
 
