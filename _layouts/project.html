@@ -2,3 +2,30 @@
 layout: default
 ---
 
+<div id="project" class="post">
+
+	<div class="project-deats-container">
+		<div class="project-deats">
+			<h2>{{ page.project }}</h2>
+			<h5>{{ page.date }}</h5>
+			<h5>Technologies</h5> <p>{{ page.technologies }}</p>
+			{% if page.pages %}
+	          <h5>Pages</h5>
+	          <p>{{ page.pages }}</p>
+	        {% endif %}
+		</div>
+
+		<div class="preview">
+			<img alt="Laptop Preview" src="{{ page.preview }}">
+			<p>See the live site <a href="{{ page.live }}">here</a>, or check out the public repo on <a href="{{ page.github }}">GitHub</a>.</p>
+		</div>
+	</div>
+
+	<article>
+		<h3 class="first-h3">Quick Overview</h3>
+		<p>{{ page.short }}
+		<h3 class="second-h3">Detailed Process</h3>
+		{{ content }}
+	</article>
+
+</div>

@@ -1,22 +1,17 @@
 ---
 layout: project
-project-title: Radlibs
-permalink: /portfolio/radlibs/
+project: Radlibs
+permalink: /work/radlibs/
 id: radlibs
 live: http://radlib.herokuapp.com/
 github: https://github.com/cczapski/Radlibs
+date: June 2015
+technologies: Adobe Photoshop, HTML, CSS, Sass, Javascript, React, Ruby
+short: Radlibs is my first ever website design, and the product of a group hackathon project at the <a href="http://theironyard.com/">Iron Yard</a>. For any of you who remember adlibs or madlibs, Radlibs is a play off of those word games, combining a database of randomly generated famous quotes and user input for parts of speech. 
 ---
 
 ##About
-Radlibs is my very first design ever. I completed the project with two wonderful teammates, Ben Hand (Ruby) and Joshua LeGrand (Front End), during an Iron Yard hackathon project (also my very first hackathon ever). For any of you who remember adlibs or madlibs, Radlibs is a play off of those word games, combining a database of randomly generated famous quotes and user input for parts of speech. The goal of the website was to make the user's experience fun and enjoyable, full of goofy nonsense, with some good laughs along the way. 
-
-##Technologies
-[] HTML (Casie)
-[] CSS (Casie)
-[] Sass (Casie)
-[] Javascript (Josh)
-[] React (Josh)
-[] Ruby (Ben)
+Radlibs is my very first design ever. I completed the project with two wonderful teammates, Ben Hand (Ruby) and Joshua LeGrand (Front End), during an Iron Yard hackathon project (also my very first hackathon ever). The goal of the website was to make the user's experience fun and enjoyable, full of goofy nonsense, with some good laughs along the way. 
 
 ##Process
 We kicked off our Thursday collaborating on what exactly we wanted the website to achieve and what each of our first steps would be. We had to first draw out the basic concept of the site, from the home page, to the sign up, the first input page, and the display of the Radlibs quote. I took down which web pages I needed to design and style, and my teammates took notes of what they would need to incorporate to develop our end result. From there, we began our first steps.

@@ -51,6 +51,10 @@ header {
 		&:nth-child(3) {
 			@include borderRight($color2);
 		}
+
+		a {
+			font-family: "ff-enzo-web", sans-serif;
+		}
 	}
 }
 
@@ -61,6 +65,7 @@ header {
 .post {
 	max-width: 1200px;
 	margin: 0 auto;
+	margin-bottom
 }
 
 .content {
@@ -328,6 +333,62 @@ header {
 		padding-bottom: 1em;
 	}	
 }
+
+//PROJECT PAGES
+#project {
+	a {
+		border-bottom: 2px solid $color2;
+
+		&:visited {
+			border-bottom: 2px solid $color4;
+		}
+	}
+
+	h2 {
+		@include borderLeft($color4);
+		font-weight: bold;
+		margin-bottom: 15px;
+	}
+
+	h3 {
+		font-weight: bold;
+		padding-top: 0;
+		margin-bottom: 15px;
+	}
+
+	.first-h3 {
+		@include borderLeft($color5);
+	}
+
+	.second-h3 {
+		@include borderLeft($color2);
+	}
+
+	img {
+		max-width: 100%;
+	}
+
+	ul {
+		list-style: disc inside;
+		margin-left: 30px;
+		margin-bottom: 15px;
+	}
+}
+
+.center {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+.preview {
+	max-width: 573px;
+	margin: 30px auto;
+
+	p {
+		text-align: center;
+	}
+}
+
 
 // ABOUT -------------------------------------------------------------
 .about-container {

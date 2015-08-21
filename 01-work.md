@@ -10,11 +10,7 @@ permalink: /work/
 		{% if page.id %}
 			<div id="{{page.id}}" class="portfolio-image">
 				<div class="project-title">
-					<h3>{{page.project-title}}</h3>
-					<div class="work-buttons">
-						<button class="live"><a href="{{page.live}}">View Live Site</a></button>
-						<button class="github"><a href="{{page.github}}">View on GitHub</a></button>
-					</div>
+					<h3><a href="{{page.permalink}}">{{page.project}}</a></h3>
 				</div>
 			</div>
 			{% endif %}

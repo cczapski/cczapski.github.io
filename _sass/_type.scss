@@ -1,4 +1,4 @@
-$body-text: 'ff-enzo-web', Arial, sans-serif;
+$body-text: 'alverata-pe', Arial, sans-serif;
 
 @mixin font($em){
 	font-size: ($em*16) + px;
@@ -10,11 +10,13 @@ body {
 	@include font(1);
 	line-height: 1.5;
 	color: $color1;
+	font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	line-height: 1.8;
 	color: $color1;
+	font-family: 'ff-enzo-web', sans-serif;
 }
 
 h1 {
@@ -30,9 +32,9 @@ h2 {
 
 h3 {
 	@include font(1.5);
-	font-family: 'alverata-pe', sans-serif;
-	padding-top: 0.5em;
-	padding-left: 0.5em;
+	font-family: 'ff-enzo-web', sans-serif;
+	padding-top: 10px;
+	padding-left: 10px;
 }
 
 h4 {
@@ -44,7 +46,7 @@ h5 {
 }
 
 p {
-	padding: 0 1em 1em 1em;
+	padding: 0 15px 15px 15px;
 }
 
 a {
@@ -85,17 +87,17 @@ a {
 
 @mixin borderLeft($color) {
 	border-left: 2px solid $color;
-	padding-left: 0.5em;
+	padding-left: 10px
 }
 
 @mixin borderRight($color) {
 	border-right: 2px solid $color;
-	padding-right: 0.5em;
+	padding-right:10px;
 }
 
 @mixin borderBottom($color) {
 	border-bottom: 2px solid $color;
-	padding-bottom: 1em;
+	padding-bottom: 15px;
 }
 
 //Box Shadow Mixin
