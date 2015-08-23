@@ -366,12 +366,11 @@ header {
 
 	h2 {
 		@include borderLeft($color4);
-		font-weight: bold;
 		margin-bottom: 15px;
+		@include font(2.5);
 	}
 
 	h3 {
-		font-weight: bold;
 		padding-top: 0;
 		margin-bottom: 15px;
 	}
@@ -401,6 +400,11 @@ article {
 
 .this-that, .prototype {
 	max-width: 550px;
+	margin: 0 auto;
+}
+
+.comps {
+	max-width: 400px;
 	margin: 0 auto;
 }
 

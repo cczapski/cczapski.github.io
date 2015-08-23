@@ -26,11 +26,15 @@ Not only was I highly overwhelmed by the volume of content on the site, but I di
 
 ##### Core Purpose
 
-WorldTeach's main goal is to motivate and inspire people with similar beliefs in world education to take action with their organization, whether through their time or with their money. With this organizational core purpose established, I developed my own core purpose and goals for the redesign - design the site to motivate and inspire action from users and create the easiest, most intuitive and logical experience for any user.
+WorldTeach's main goal is to motivate and inspire people with similar beliefs in world education to take action with their organization, whether through their time or with their money. 
+
+With this organizational core purpose established, I developed my own core purpose and goals for the redesign - design the site to motivate and inspire action from users and create the easiest, most intuitive and logical experience for any user.
 
 ##### In-depth Content Analysis
 
-As a key next step in determining the most logical layout of content for all users, I went through as thorough of a <a href="https://github.com/cczapski/WorldTeach/blob/master/content.md">content analysis</a> possible given the time constraints of the project. With the large navigation on the current site, I developed a new layout structure that centers around three main users: future and current volunteers, supporters and donors, and volunteer alumni.
+As a key next step in determining the most logical layout of content for all users, I went through as thorough of a <a href="https://github.com/cczapski/WorldTeach/blob/master/content.md">content analysis</a> possible given the time constraints of the project. 
+
+With the large navigation on the current site, I developed a new layout structure that centers around three main users: future and current volunteers, supporters and donors, and volunteer alumni.
 
 ![Future + Current Volunteers potential site map](/images/work/worldteach/worldteach_sitemap.jpg)
 
@@ -41,7 +45,9 @@ At this point, I chose my 4 pages and began to compile the most crucial, yet con
 * Choose Your Destination
 * Costa Rica Country Page
 
-A lot of my time centered around the content on the Costa Rica country page to attack the most content-heavy from the get go. I ended up condensing the many paragraphs of information into bulleted lists with options to "Learn More" again for the purpose of providing relevant and concise information to users first. Here you see a quick screenshot of the paper prototype process that ultimately led me to the final content and basic structure of the Costa Rica country page.
+A lot of my time centered around the content on the Costa Rica country page to attack the most content-heavy from the get go. I ended up condensing the many paragraphs of information into bulleted lists with options to "Learn More" again for the purpose of providing relevant and concise information to users first. 
+
+Here you see a quick screenshot of the paper prototype process that ultimately led me to the final content and basic structure of the Costa Rica country page.
 
 <p class="prototype">
     <img alt="paper prototype of Costa Rica country page" src="/images/work/worldteach/paper_prototype_country_page_2.jpg">
@@ -72,7 +78,9 @@ With the basic style developed, I moved to wireframing the ideas I explored in t
 
 The final step I took before jumping into code was to create basic comps through combining the style and the wireframes. Again based on the time constraint, I chose to focus on the small and medium device sizes for the Costa Rica country page that you see below.
 
-![WorldTeach Comps](/images/work/worldteach/worldteach_comps.jpg)
+<p class="comps">
+    <img alt="WorldTeach Comps" src="/images/work/worldteach/worldteach_comps.jpg">
+</p>
 
 ##### Final Product
 
