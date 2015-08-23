@@ -92,7 +92,7 @@ The final four pages of the website are completely responsive across multiple de
     </p>
 
     <p class="medium">
-        <img alt="Medium Device Home Page" src="/images/work/worldteach/destinations_medium.png">
+        <img alt="Medium Device Page" src="/images/work/worldteach/destinations_medium.png">
     </p>
 
 </div>

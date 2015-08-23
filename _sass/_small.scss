@@ -317,6 +317,7 @@ header {
 
 	h3 {
 		color: $color5;
+		padding-left: 0;
 	}
 }
 
@@ -398,7 +399,7 @@ article {
 	overflow: hidden;
 }
 
-.this-that, .prototype {
+.this-that, .prototype, .center {
 	max-width: 550px;
 	margin: 0 auto;
 }
@@ -432,6 +433,18 @@ article {
 
 .medium {
 	max-width: 463px;
+}
+
+.sketches {
+	overflow: hidden;
+	max-width: 550px;
+	margin: 0 auto;
+}
+
+.sketch {
+	max-width: 300px;
+	width: 46%;
+	float: left;
 }
 
 // ABOUT -------------------------------------------------------------
