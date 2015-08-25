@@ -6,7 +6,6 @@ id: radlibs
 live: http://radlib.herokuapp.com/
 github: https://github.com/cczapski/Radlibs
 preview: /images/work/radlibs/home_laptop_radlibs.png
-date: June 2015
 technologies: Adobe Photoshop, HTML, CSS, Sass, Javascript, React, Ruby
 short: Radlibs is my first ever website design, and the product of a group hackathon project at the <a href="http://theironyard.com/">Iron Yard</a>. For any of you who remember adlibs or madlibs, Radlibs is a play off of those word games, combining a database of randomly generated famous quotes and user input for parts of speech. 
 ---

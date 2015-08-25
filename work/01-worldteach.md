@@ -6,7 +6,6 @@ id: worldteach
 live: http://casieczapski.com/WorldTeach/
 github: https://github.com/cczapski/WorldTeach
 preview: /images/work/worldteach/home_laptop.png
-date: August 2015
 technologies: Adobe Illustrator and Photoshop, HTML, CSS, Sass, jQuery
 pages: Home, For Future + Current Volunteers, Choose Your Destination, Costa Rica Country Home Page
 short: WorldTeach is my final project for the accelarated UI Design course at the <a href="http://theironyard.com/">Iron Yard</a>. This project is a fully responsive redesign of the 2015 WorldTeach website. Please note, this project is not officially affliated with the actual WorldTeach organization and is simply an Iron Yard project.
