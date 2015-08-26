@@ -5,6 +5,10 @@ layout: default
 <div id="project" class="post">
 
 	<div class="project-deats-container">
+		<div class="preview">
+			<img alt="Laptop Preview" src="{{ page.preview }}">
+			<p>See the live site <a href="{{ page.live }}">here</a>, or check out the public repo on <a href="{{ page.github }}">GitHub</a>.</p>
+		</div>
 		<div class="project-deats">
 			<h2>{{ page.project }}</h2>
 			<h5>{{ page.date }}</h5>
@@ -13,11 +17,6 @@ layout: default
 	          <h5>Pages</h5>
 	          <p>{{ page.pages }}</p>
 	        {% endif %}
-		</div>
-
-		<div class="preview">
-			<img alt="Laptop Preview" src="{{ page.preview }}">
-			<p>See the live site <a href="{{ page.live }}">here</a>, or check out the public repo on <a href="{{ page.github }}">GitHub</a>.</p>
 		</div>
 	</div>
 
