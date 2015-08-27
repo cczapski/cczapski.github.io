@@ -4,17 +4,7 @@
 	}
 
 	.work-container {
-		overflow: hidden;
 		max-width: 1200px;
-	}
-
-	.portfolio-image {
-		float: left;
-		width: 45%;
-
-		&:nth-child(even) {
-			margin-left: 10%;
-		}
 	}
 
 	//PROJECT PAGES
@@ -24,20 +14,4 @@
 			margin: 0 auto;
 		}
 	}
-
-	// .project-deats-container {
-	// 	max-width: 800px;
-	// 	margin: 0 auto;
-	// 	overflow: hidden;
-	// }
-
-	// .preview, .project-deats {
-	// 	width: 47%;
-	// 	float: left;
-	// }
-
-	// .preview {
-	// 	margin-left: 6%;
-	// }
-
-}
+} //end of media query

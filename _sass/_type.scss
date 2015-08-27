@@ -14,7 +14,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	line-height: 1.8;
+	line-height: 1.5;
 	color: $color1;
 	font-family: 'ff-enzo-web', sans-serif;
 }
@@ -52,24 +52,12 @@ p {
 
 a {
 	text-decoration: none;
-	color: $color2;
+	border-bottom: 2px solid $color2;
+	color: $color1;
 
 	&:hover {
-		color: $color5;
+		color: $color2;
 		cursor: pointer;
-	}
-
-	&:visited {
-		color: $color5;
-	}
-}
-
-.link {
-	color: $color2;
-	// font-weight: bold;
-
-	&:hover {
-		color: $color5;
 	}
 }
 
