@@ -39,7 +39,7 @@ permalink: /about/
         <div class="connect">
             <h4>Connect with Me</h4>
             <ul>
-                <li>Email: casieczapski@gmail.com</li>
+                <li>Email: <a href="mailto:casieczapski@gmail.com">casieczapski@gmail.com</a></li>
                 <li>LinkedIn: <a href="https://www.linkedin.com/in/casieczapski">casieczapski</a></li>
                 <li>GitHub: <a href="https://github.com/cczapski">casieczapski</a></li>
                 <li>Twitter: <a href="https://twitter.com/casczap">casczap</a></li>

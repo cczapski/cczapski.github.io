@@ -25,7 +25,6 @@
 
 	.page {
 		overflow: hidden;
-		max-width: 1200px;
 	}
 
 	.blog-content {
@@ -38,22 +37,33 @@
 		}
 	}
 
+	.about-summary {
+		float: left;
+	}
+
+	.about-photo {
+		float: right;
+	}
+
 	.more-container {
 		overflow: hidden;
 		max-width: 800px;
 		margin: 0 auto;
 
-		.more-about, .connect {
-			width: 47%;
-		}
+		// .more-about, .connect {
+		// 	width: 46%;
+		// }
 
 		.more-about {
 			float: left;
+			width: 55%;
 		}
 
 		.connect {
-			margin-left: 6%;
+			margin-left: 5%;
 			float: right;
+			width: 40%;
+			max-width: 400px;
 		}
 	}
 

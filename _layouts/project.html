@@ -9,6 +9,9 @@ layout: default
 			<img alt="Laptop Preview" src="{{ page.preview }}">
 			<p>See the live site <a href="{{ page.live }}">here</a>, or check out the public repo on <a href="{{ page.github }}">GitHub</a>.</p>
 		</div>
+	</div>
+
+	<article>
 		<div class="project-deats">
 			<h2>{{ page.project }}</h2>
 			<h5>{{ page.date }}</h5>
@@ -18,12 +21,9 @@ layout: default
 	          <p>{{ page.pages }}</p>
 	        {% endif %}
 		</div>
-	</div>
-
-	<article>
-		<h3 class="first-h3">Quick Overview</h3>
+		<h3 class="first-h3">Brief Overview</h3>
 		<p>{{ page.short }}
-		<h3 class="second-h3">Detailed Process</h3>
+		<h3 class="second-h3">About the Design</h3>
 		{{ content }}
 		<p>See the live site <a href="{{ page.live }}">here</a>, or check out the public repo on <a href="{{ page.github }}">GitHub</a>.</p>
 	</article>

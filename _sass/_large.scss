@@ -7,6 +7,22 @@
 		max-width: 1200px;
 	}
 
+	.home {
+		.content {
+			max-width: 1200px;
+			overflow: hidden;
+		}
+
+		.portfolio-image {
+			float: left;
+			width: 47%;
+
+			&:nth-child(even) {
+				margin-left: 6%;
+			}
+		}
+	}
+
 	//PROJECT PAGES
 	#project {
 		article {

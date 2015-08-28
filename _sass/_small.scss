@@ -83,7 +83,6 @@ header {
 
 	button {
 		float: right;
-	    margin-top: 30px;
 	}
  }
 
@@ -284,7 +283,7 @@ header {
 .portfolio-image {
 	min-height: 250px;
 	position: relative;
-	margin: 60px auto;
+	margin: 45px auto;
 	overflow: hidden;
 
 	h3 {
@@ -333,7 +332,13 @@ header {
 .post-header {
 	max-width: 800px;
 	margin: 0 auto;
+
+	h1 {
+		color: $color5;
+	}
 }
+
+
 
 .post-content {
 
@@ -403,6 +408,10 @@ header {
 
 article {
 	overflow: hidden;
+
+	h2, h3 {
+		font-weight: 600;
+	}
 }
 
 .this-that, .prototype, .center {
@@ -416,8 +425,8 @@ article {
 }
 
 .preview {
-	max-width: 573px;
 	margin: 30px auto;
+	max-width: 985px;
 
 	p {
 		text-align: center;
@@ -483,13 +492,17 @@ article {
 	}
 }
 
+.about-summary, .about-photo {
+	max-width: 280px;
+}
+
 .about-summary {
-	float: left;
+	margin: 0 auto;
 	margin-bottom: 30px;
 }
 
 .about-photo {
-	float: right;
+	margin: 0 auto;
 	margin-top: 15px;
 	// border: 3px solid $color4;
 	// max-height: 281px;
@@ -508,7 +521,7 @@ article {
 .connect {
 	border: 2px solid $color4;
 	padding: 20px 30px 30px 30px;
-	max-width: 300px;
+	max-width: 315px;
 	margin: 30px auto;
 }
 
@@ -572,6 +585,7 @@ button {
     	padding: 15px;
         color: white;
         @include font(1.4); 
+        border-bottom: none;
         
         &:hover {
             color: $color2; 
