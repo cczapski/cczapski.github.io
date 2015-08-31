@@ -151,26 +151,7 @@ header {
 	}
 }
 
-#babyAs {
-	background: url("../images/baby_a.png");
-	background-size: cover;
-	background-position: center;
-
-	&:hover {
-		background: 
-			linear-gradient(
-				rgba(31, 181, 243, 0.7),
-				rgba(31, 181, 243, 0.7)
-			),
-			url("../images/baby_a.png");
-		background-size: cover;
-		background-position: center;
-
-		.project-title {
-			opacity: 1;
-		}
-	}
-}
+// port
 
 #csszen {
 	background: url("../images/css_zen_garden.png");
@@ -281,7 +262,7 @@ header {
 }
 
 .portfolio-image {
-	min-height: 250px;
+	min-height: 300px;
 	position: relative;
 	margin: 45px auto;
 	overflow: hidden;
