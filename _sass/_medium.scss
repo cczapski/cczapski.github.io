@@ -15,9 +15,9 @@
 		margin: 0 auto;
 	}
 
-	.this-that {
+	.vintage-travel {
 		width: 50%;
-		float: left;
+		float: right;
 	}
 } //end of media query
 
@@ -77,14 +77,3 @@
 	}
 
 } //end of media query
-
-@media screen and (min-width: 785px) {
-	.small {
-		float: left;
-	}
-
-	.medium {
-		float: right;
-		margin-top: 35px;
-	}
-}

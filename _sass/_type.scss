@@ -61,6 +61,15 @@ a {
 	}
 }
 
+ol {
+	list-style: decimal inside;
+
+	li {
+		padding-bottom: 10px;
+		padding-left: 10px;
+	}
+}
+
 .menu {
 	color: $color1;
 }

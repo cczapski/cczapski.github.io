@@ -397,7 +397,7 @@ article {
 	}
 }
 
-.this-that, .prototype, .center {
+.prototype, .center {
 	max-width: 550px;
 	margin: 0 auto;
 }
@@ -426,11 +426,11 @@ article {
 }
 
 .small {
-	max-width: 240px;
+	max-width: 300px;
 }
 
 .medium {
-	max-width: 463px;
+	max-width: 600px;
 }
 
 .sketches {
@@ -442,6 +442,16 @@ article {
 .sketch {
 	max-width: 300px;
 	width: 46%;
+	float: left;
+}
+
+.vintage-travel {
+	max-width: 300px;
+	margin: 0 auto;
+	padding: 0 30px 30px 30px;
+}
+
+.header-snapshot {
 	float: left;
 }
 
@@ -573,10 +583,6 @@ button {
         &:hover {
             color: $color2; 
         }
-
-        &:visited {
-        	color: white;
-        }
     }
 
     &:hover {
@@ -595,5 +601,22 @@ button {
 		&:hover {
 			color: $color5;
 		}
+	}
+}
+
+.back {
+	float: right;
+	background: white;
+
+	a {
+		color: $color2;
+
+		&:hover {
+			color: white;
+		}
+	}
+
+	&:hover {
+		background: $color2;
 	}
 }

@@ -35,4 +35,16 @@
 			margin: 0 auto;
 		}
 	}
+
+	.small {
+		float: left;
+		margin-top: 40px;
+		max-width: 250px;
+	}
+
+	.medium {
+		float: right;
+		max-width: 550px;
+	}
+
 } //end of media query
