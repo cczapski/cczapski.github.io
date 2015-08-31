@@ -47,32 +47,35 @@ I started with sketches, deciding to make the layout as simple as possible due n
 
 #####Design Step 2: Style Tiles
 
-Once the team all agreed upon the layout from my sketches, I started developing pieces of the style. Again due to time, I decided to create just two styles. As I was thinking of colors and feelings, all I could think of was childhood memories of Madlibs, so I took the first style direction towards mimicking the playful, silly, fun feel of Madlibs. 
+Once the team all agreed upon the layout from my sketches, I started developing pieces of the style. As I was thinking of colors and feelings, all I could think of was childhood memories of Madlibs, so I took the first style direction towards mimicking the playful, silly, fun feel of Madlibs. 
 
 <p class="center">
     <img alt="Madlibs inspired Style Tile" src="/images/work/radlibs/style_tile_radlibs_v1.jpg">
 </p>
 
-After I got that style out, I knew that I didn't want to just mimick Madlibs, but create a unique feel to Radlibs. I wanted something more bright, a little more grown up, and something rad. One of my brainstorming methods for getting the right vibe from visual elements on a style tile is to simply google those words together and see what happens. 
+After I got that style out, I knew that I didn't want to just mimick Madlibs, but create a unique feel to Radlibs. I wanted something more bright, a little more grown up, and something "rad". One of my brainstorming methods for getting the right vibe from visual elements on a style tile is to simply google those words together and see what happens. 
 
-In this case, I googled rad, bright and fun. Below is the style I developed, and as a team we agreed this design was the best fit for the goals of the project.
+In this case, I googled rad, bright and fun. Below is the style I developed from brainstorm with that search result, and as a team we agreed this design was the best fit for the goals of the project.
 
 <p class="center">
     <img alt="Google search inspired Style Tile" src="/images/work/radlibs/style_tile_radlibs_v2.jpg">
 </p>
 
-<!-- #####Challenges
+#####Challenges
+Where a lot of teams struggled with communication over the weekend, Josh, Ben and I managed to communicate with each other very well, fully avoiding any GitHub merge conflicts. 
 
+The main challenges we faced were understanding how each of our pieces would fit together. With constant communication, attempts, errors, and re-attempts, Josh took my design, his front end skills, and Ben's backend magic to glue all elements together and we were successful in creating a fully functioning application by the end of the weekend.
 
-#####Conclusions
- -->
+#####Final Product
+After 72 hours, we completed the Radlibs that you see today hosted on Heroku. Radlibs is accessible on any device. If you haven't checked it out yet, please do - especially if you're in a need of a laugh!
+
 <div class="devices">
     <p class="small">
-        <img alt="Small Device Home Page" src="/images/work/radlibs/home_small_radlibs.png">
+        <img alt="Small Device Create Page" src="/images/work/radlibs/create_small.png">
     </p>
 
     <p class="medium">
-        <img alt="Medium Device Page" src="/images/work/radlibs/radlibs_medium.png">
+        <img alt="Medium Results Page" src="/images/work/radlibs/results_medium.png">
     </p>
 
 </div>
