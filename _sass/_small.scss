@@ -205,8 +205,10 @@ header {
 
 	a {
 		color: white;
+		font-weight: bold;
 		padding-top: 180px;
 		padding-bottom: 180px;
+		border-bottom: none;
 	}
 
 	.live, .github {

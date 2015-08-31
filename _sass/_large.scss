@@ -16,10 +16,15 @@
 		.portfolio-image {
 			float: left;
 			width: 47%;
+			min-height: 400px;
 
 			&:nth-child(even) {
 				margin-left: 6%;
 			}
+		}
+
+		.blog-content {
+			min-height: 300px;
 		}
 	}
 
