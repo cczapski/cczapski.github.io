@@ -421,7 +421,7 @@ article {
 	overflow: hidden;
 }
 
-.small, .medium {
+.small, .medium, .goodreads-small, .goodreads-med {
 	margin: 15px auto;
 }
 
@@ -454,6 +454,15 @@ article {
 .header-snapshot {
 	float: left;
 }
+
+.goodreads-small {
+	max-width: 480px;
+}
+
+.goodreads-med {
+	max-width: 770px;
+}
+
 
 // ABOUT -------------------------------------------------------------
 .about-container {
