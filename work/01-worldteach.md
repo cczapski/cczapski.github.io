@@ -30,12 +30,12 @@ A quick snapshot of the main header shows a few key design elements that relate 
     <img alt="Main WorldTeach Header Snapshot" src="/images/work/worldteach/header_snapshot.jpg">  
 </p>
 
-The WorldTeach wordmark logo inherits the script font and stamp-like texture of Rinse, hosted by Typekit. The buttons also take on the texture reminiscent of a passport stamp, with the patterned dots as key separators inspired by stamp borders.
+The WorldTeach wordmark logo inherits the script font and stamp-like texture of Rinse, a type hosted by Typekit. The buttons also take on this passport-like stamp texture, with the patterned dots as key separators inspired by stamp borders.
 
 #####Content Strategy
 WorldTeach currently benefits from a wealth of useful information; however, the organization of this information is hardly intuitive or logical, most often confusing or losing users in the site.
 
-A large focus of this project revolved around a more logical path of information and resources to improve the overall user experience. A key solution I created was to first break down the website into user sections and then to structure the content paths from those point of views and main goals.
+A large focus of this project revolved around a more logical path of information and resources to improve the overall user experience. A key solution I created was to first break down the website into user sections and then to structure the content paths from those point of views and main user goals.
 
 <p class="center">
     <img alt="User section breakdown" src="/images/work/worldteach/users.jpg">  

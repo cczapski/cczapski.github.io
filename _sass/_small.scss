@@ -467,6 +467,17 @@ article {
 	min-height: 1100px;
 	overflow: hidden;
 }
+
+.de-stijl-piece {
+	max-width: 250px;
+	margin: 0 auto;
+}
+
+.type-sample {
+	max-width: 300px;
+	margin: 0 auto;
+}
+
 // ABOUT -------------------------------------------------------------
 .about-container {
 	max-width: 600px;
@@ -604,6 +615,12 @@ button {
         	color: $color2;
         }
     }
+}
+
+.resume {
+	max-width: 160px;
+	margin: 0 auto;
+	margin-top: 15px;
 }
 
 .social-media-list {

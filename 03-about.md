@@ -45,6 +45,11 @@ permalink: /about/
                 <li>Twitter: <a href="https://twitter.com/casczap">casczap</a></li>
             </ul>
         </div>
+        <div class="resume">
+            <button>
+                <a href="/documents/casie_czapski_resume.pdf">See My Resum&#233;</a>
+            </button>
+        </div>
     </div>
   </section>
 

@@ -7,6 +7,7 @@ live: http://radlib.herokuapp.com/
 github: https://github.com/cczapski/Radlibs
 preview: /images/work/radlibs/home_laptop_radlibs.png
 technologies: Adobe Photoshop, HTML, CSS, Sass, Javascript, React, Ruby
+pages: Home / Sign Up & Login, Create, Results
 short: Radlibs is my first ever website design, and the product of a group hackathon project at the <a href="http://theironyard.com/">Iron Yard</a>. For any of you who remember adlibs or madlibs, Radlibs is a play off of those word games, combining a database of randomly generated famous quotes and user input for parts of speech. 
 ---
 
@@ -55,7 +56,7 @@ Once the team all agreed upon the layout from my sketches, I started developing 
 
 After I got that style out, I knew that I didn't want to just mimick Madlibs, but create a unique feel to Radlibs. I wanted something more bright, a little more grown up, and something "rad". One of my brainstorming methods for getting the right vibe from visual elements on a style tile is to simply google those words together and see what happens. 
 
-In this case, I googled rad, bright and fun. Below is the style I developed from brainstorm with that search result, and as a team we agreed this design was the best fit for the goals of the project.
+In this case, I googled rad, bright and fun. Below is the style I developed from a brainstorm with that search result, and as a team we agreed this design was the best fit for the goals of the project.
 
 <p class="center">
     <img alt="Google search inspired Style Tile" src="/images/work/radlibs/style_tile_radlibs_v2.jpg">

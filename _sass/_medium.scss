@@ -19,6 +19,16 @@
 		width: 50%;
 		float: right;
 	}
+
+	.de-stijl-piece {
+		float: right;
+		margin-left: 15px;
+	}
+
+	.type-sample {
+		float: left;
+		margin-right: 15px;
+	}
 } //end of media query
 
 @media screen and (min-width: 720px) {
