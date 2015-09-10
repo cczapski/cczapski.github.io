@@ -12,20 +12,17 @@ short: Radlibs is my first ever website design, and the product of a group hacka
 ---
 
 #####Goals and the Team
-The goal of the website was to make the user's experience fun and enjoyable, full of goofy nonsense, with some good laughs along the way. 
+<a href="https://github.com/BenHand">Ben Hand</a>, my Ruby teammate of our Hackathon trio, pitched the idea to create Radlibs as a fun and goofy application, full of nonsense and laughs along the way. With this in mind, we knew our users would expect nothing more than a simple interface with a fun way to focus on the user generated quotes. 
 
-I completed the project with two wonderful teammates, <a href="https://github.com/BenHand">Ben Hand</a> (Ruby) and <a href="https://twitter.com/jlagrange87">Joshua LeGrand</a> (Front End) over a weekend in June. I worked with Adobe Photoshop, HTML, CSS and Sass to complete the design, while Josh worked with Javascript and React and Ben with Ruby.
+The full trio consisted of <a href="https://github.com/BenHand">Ben Hand</a> (Ruby), <a href="https://twitter.com/jlagrange87">Joshua LeGrand</a> (Front End), and myself. I worked with Adobe Photoshop, HTML, CSS and Sass to complete the fully responsive design, while Josh worked with Javascript and React and Ben with Ruby.
 
-#####Kick Off
-We kicked off our Thursday collaborating on what we wanted the website to achieve and what each of our first steps would be. We had to first draw out the basic concept of the site, from the home page, to the sign up, the first input page, and the display of the Radlibs quote. 
+<!-- #####Design Step 1: Sketches
 
-I took down which web pages I needed to design and style, and my teammates took notes of what they would need to incorporate to develop our end result. From there, we began our first steps.
+I started with sketches, deciding to make the layout as simple as possible due not only to the time constraints of completing the project in one weekend, but also to match the simple, fun interface our users would be anticipating with the application. 
+ -->
+<!-- Here's a quick peek at those sketches. -->
 
-#####Design Step 1: Sketches
-
-I started with sketches, deciding to make the layout as simple as possible due not only to the time constraints of completing the project in one weekend, but also to match the simple, fun aspect of the website. Here's a quick peek at those sketches.
-
-<div class="sketches">
+<!-- <div class="sketches">
     <p class="sketch">
         <img alt="Radlibs Small Home Sketch" src="/images/work/radlibs/sketch_home_small.jpg">
     </p>
@@ -44,19 +41,21 @@ I started with sketches, deciding to make the layout as simple as possible due n
     <p class="sketch">
         <img alt="Radlibs Medium Your Quote Sketch" src="/images/work/radlibs/sketch_yourquote_medium.jpg">
     </p>
-</div>
+</div> -->
 
-#####Design Step 2: Style Tiles
+<!-- #####Design Step 2: Style Tiles
 
-Once the team all agreed upon the layout from my sketches, I started developing pieces of the style. As I was thinking of colors and feelings, all I could think of was childhood memories of Madlibs, so I took the first style direction towards mimicking the playful, silly, fun feel of Madlibs. 
+The most obvious style direction was to mimick Mad Libs and give users a reminiscent feeling of the playful books. Version 1 of the style tile employs a soft, but fun color palette with a strong emphasis on black and white to emulate the pages of text in Mad Libs books. 
+
+Felt Tip Roman Heavy, hosted by TypeKit, was the perfect handwritten type for the light-hearted logo. The type throughout the rest of the site needed to emulate the goofy feel, but provide a more legible text type. Signo, also by TypeKit, proved a good match for these qualities.
 
 <p class="center">
-    <img alt="Madlibs inspired Style Tile" src="/images/work/radlibs/style_tile_radlibs_v1.jpg">
+    <img alt="Mad Libs inspired Style Tile" src="/images/work/radlibs/style_tile_radlibs_v1.jpg">
 </p>
 
-After I got that style out, I knew that I didn't want to just mimick Madlibs, but create a unique feel to Radlibs. I wanted something more bright, a little more grown up, and something "rad". One of my brainstorming methods for getting the right vibe from visual elements on a style tile is to simply google those words together and see what happens. 
+Almost immediately I felt version one to be too obvious and easy. I wanted to create a unique identity to Radlibs to display a brighter, more age-diverse color palette and a stronger, more bold statement with the logo type. 
 
-In this case, I googled rad, bright and fun. Below is the style I developed from a brainstorm with that search result, and as a team we agreed this design was the best fit for the goals of the project.
+Version 2 holds a much more vibrant palette inspired from a fun color-box discovered during braintstorming, that eventually evolved into the user-generated quote border and Radlibs logo. Azo Sans Uber provided the bolder typeface I was looking for in the title of Radlibs.
 
 <p class="center">
     <img alt="Google search inspired Style Tile" src="/images/work/radlibs/style_tile_radlibs_v2.jpg">
@@ -65,7 +64,7 @@ In this case, I googled rad, bright and fun. Below is the style I developed from
 #####Challenges
 Where a lot of teams struggled with communication over the weekend, Josh, Ben and I managed to communicate with each other very well, fully avoiding any GitHub merge conflicts. 
 
-The main challenges we faced were understanding how each of our pieces would fit together. With constant communication, attempts, errors, and re-attempts, Josh took my design, his front end skills, and Ben's backend magic to glue all elements together and we were successful in creating a fully functioning application by the end of the weekend.
+The main challenges we faced were understanding how each of our pieces would fit together. With constant communication, attempts, errors, and re-attempts, Josh took my design, his front end skills, and Ben's backend magic to glue all elements together and we were successful in creating a fully functioning application by the end of the weekend. -->
 
 #####Final Product
 After 72 hours, we completed the Radlibs that you see today hosted on Heroku. Radlibs is accessible on any device. If you haven't checked it out yet, please do - especially if you're in a need of a laugh!
