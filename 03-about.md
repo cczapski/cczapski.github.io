@@ -47,7 +47,7 @@ permalink: /about/
         </div>
         <div class="resume">
             <button>
-                <a href="/documents/casie_czapski_resume.pdf">See My Resum&#233;</a>
+                <a href="/resume.pdf">See My Resum&#233;</a>
             </button>
         </div>
     </div>
