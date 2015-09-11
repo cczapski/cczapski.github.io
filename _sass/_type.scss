@@ -78,6 +78,10 @@ ol {
 	color: $color1;
 }
 
+.bold {
+	font-weight: bold;
+}
+
 //Border mixins 
 @mixin borderFull($color) {
 	border: 2px solid $color;
