@@ -1,6 +1,7 @@
 ---
 layout: project
 project: WorldTeach
+project-brief: Responsive Redesign
 permalink: /work/worldteach/
 id: worldteach
 live: http://casieczapski.com/WorldTeach/

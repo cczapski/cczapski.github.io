@@ -8,12 +8,15 @@ permalink: /work/
 	<div class="page">
 		{% for page in site.pages %}
 		{% if page.id %}
-			<div id="{{page.id}}" class="portfolio-image">
-				<div class="project-title">
-					<h3><a href="{{page.permalink}}">{{page.project}}</a></h3>
+			<a href="{{ page.permalink }}">
+				<div id="{{ page.id }}" class="portfolio-image">
+					<div class="project-title">
+						<h3>{{ page.project }}</h3>
+						<p>{{ page.project-brief }}</p>
+					</div>
 				</div>
-			</div>
-			{% endif %}
+			</a>
+		{% endif %}
 		{% endfor %}
 	</div>
 </section>

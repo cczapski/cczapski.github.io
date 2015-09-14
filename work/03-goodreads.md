@@ -1,6 +1,7 @@
 ---
 layout: project
 project: Goodreads
+project-brief: UI Design Principles
 permalink: /work/goodreads/
 id: goodreads
 github: https://github.com/cczapski/Goodreads

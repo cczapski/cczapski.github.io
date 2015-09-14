@@ -1,6 +1,7 @@
 ---
 layout: project
 project: CSS Zen Garden
+project-brief: Power of CSS
 permalink: /work/csszen/
 id: csszen
 live: http://casieczapski.com/CSS-Zen-Garden/

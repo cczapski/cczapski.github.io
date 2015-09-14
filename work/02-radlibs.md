@@ -1,6 +1,7 @@
 ---
 layout: project
 project: Radlibs
+project-brief: Team Hackathon
 permalink: /work/radlibs/
 id: radlibs
 live: http://radlib.herokuapp.com/
