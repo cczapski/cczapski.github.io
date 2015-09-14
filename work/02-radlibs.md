@@ -15,7 +15,7 @@ short: Radlibs is my first ever website design, and the product of a group hacka
 
 The full trio consisted of <a href="https://github.com/BenHand">Ben Hand</a> (Ruby), <a href="https://twitter.com/jlagrange87">Joshua LeGrand</a> (Front End), and myself. I worked with Adobe Photoshop, HTML, CSS and Sass to complete the fully responsive design, while Josh worked with Javascript and React and Ben with Ruby.
 
-<span class="bold">For a more detailed walk through of the design process, check out <a href="/2015/06/22/radlibs">this blog post</a>.</span>
+<span class="bold">For a more detailed walk through of the design process, check out <a href="/2015/06/22/radlibs">this blog post</a>!</span>
 
 After 72 hours, we completed the Radlibs that you see today hosted on Heroku. Radlibs is accessible on any device. If you haven't checked it out yet, please do - especially if you're in a need of a laugh!
 

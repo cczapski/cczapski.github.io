@@ -4,7 +4,7 @@ title: Work
 permalink: /work/
 ---
 
-<section class="content">
+<section class="content work">
 	<div class="page">
 		{% for page in site.pages %}
 		{% if page.id %}

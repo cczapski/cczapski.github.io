@@ -55,4 +55,6 @@ The final product achieves the main goals of inspiring and motivating through th
     </p>
 </div>
 
-<a class="credit" href='http://www.freepik.com/free-vector/screens-collection-free-vector_713789.htm'>Devices designed by Freepik</a>
+<span class="bold">For a more detailed walk through of the design process, check out <a href="/2015/08/21/final-project.html">this blog post</a>!</span>
+
+<a class="credit" href='http://www.freepik.com/free-vector/screens-collection-free-vector_713789.html'>Devices designed by Freepik</a>
