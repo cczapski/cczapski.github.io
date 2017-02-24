@@ -1,12 +1,13 @@
 # Site settings
-title: Casie Czapski
-email: casieczapski@gmail.com
+title: Casie Mattrisch
+email: casiemattrisch@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  A budding UI Designer's developmental outlet
+  A budding designer's developmental outlet
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://cczapski.github.io.com" # the base hostname & protocol for your site
-twitter_username: casczap
+twitter_username: CAMattrisch
 github_username:  cczapski
+linkedin_username: casiemattrisch
 
 # Build settings
 markdown: kramdown
