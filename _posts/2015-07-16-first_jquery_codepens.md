@@ -10,7 +10,7 @@ For practice, we were tasked to create three separate CodePens, each utilizing a
 
 ![snapshot of goodreads design in Adobe Illustrator](/images/blog_posts/first_jquery_codepens/goodreads_design_preview.jpg)
 
-##CodePen #1: Bookshelf Drop Down
+## CodePen #1: Bookshelf Drop Down
 
 The first CodePen I choose to complete was to create a bookshelf drop down menu for the smaller version of the design. This allows you to select which bookshelf you would like to be viewing with the content of that bookshelf directly below.
 
@@ -19,7 +19,7 @@ The first CodePen I choose to complete was to create a bookshelf drop down menu 
     <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 </div>
 
-##CodePen #2: Book Details Mouse Over
+## CodePen #2: Book Details Mouse Over
 
 For my second CodePen, I wanted to show what a mouse-over (or mouseenter, mouseleave) would look like when you move your mouse over a book. I'm still working out how to more effectively point the triangle at the right books, and welcome any tips on doing so!
 
@@ -28,7 +28,7 @@ For my second CodePen, I wanted to show what a mouse-over (or mouseenter, mousel
     <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 </div>
 
-##CodePen #3: Main Navigation Tab Transition
+## CodePen #3: Main Navigation Tab Transition
 
 For the final Goodreads CodePen, I wanted to play around with the main navigation and how the tabs would change once clicking through to the different pages.
 

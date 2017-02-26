@@ -4,13 +4,13 @@ project: CSS Zen Garden
 project-brief: Power of CSS
 permalink: /work/csszen/
 id: csszen
-live: http://casieczapski.com/CSS-Zen-Garden/
+live: http://casiemattrisch.com/CSS-Zen-Garden/
 github: https://github.com/cczapski/CSS-Zen-Garden
 preview: /images/work/css_zen/home_laptop_css_zen.png
 technologies: CSS and Sass
 short: This project is an exploration of working solely with CSS to style a webpage. The design is inspired by the De Stijl movement of the early 1900's. You can view the original CSS Zen Garden website <a href="http://www.csszengarden.com/">here</a>.
 ---
-#####Research
+##### Research
 Initially unfamiliar with the De Stijl art movement, I began the project with research. I discovered the main concepts of the style center on simplicity with a focus on the very basics in both color and shape.
 
 <p class="de-stijl-piece">
@@ -19,7 +19,7 @@ Initially unfamiliar with the De Stijl art movement, I began the project with re
 
 The artists and architects that created the movement believed in the use of only primary colors and black and white. Lines are straight, horizontal and vertical with only squares and rectangles for shapes. Asymmetrical arrangement is also a key aspect of the style. 
 
-#####The Style (or in Dutch, De Stijl)
+##### The Style (or in Dutch, De Stijl)
 
 I wanted my CSS Zen Garden to fully encompass all aspects of De Stijl and initially I thought this would be fairly easy to achieve based on the simplicity of colors and shapes.
 
@@ -33,7 +33,7 @@ The square and rectangular shapes were fairly easy to create with CSS borders, a
 
 For an added touch, I experimented with CSS animations to give the initial landing page a full, non-text example of De Stijl by covering the blocks of text with primary colors. CSS animations allowed me to then gradually fade out the colors to reveal the text on the page.
 
-#####Biggest Challenge
+##### Biggest Challenge
 A goal I set for the project was to avoid using any images to replicate the De Stijl movement. Initially, I was unable to figure out how to add horizontal and vertical lines in the background of the basic shapes. After much experimentation, I discovered a way to create repeating horizontal lines with linear gradients.
 
 To improve the project from its current state, I will be exploring methods to add in repeating vertical lines as well, which I think will enhance the overall design to more closely emulate De Stijl.
