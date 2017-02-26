@@ -276,6 +276,7 @@ header {
 	position: relative;
 	margin: 45px auto;
 	overflow: hidden;
+	border-radius: 3px;
 
 	h3 {
 		color: white;
@@ -507,6 +508,7 @@ article {
 	padding: 30px;
 	margin: 30px auto;
 	max-width: 800px;
+	border-radius: 3px;
 
 	// h3, h4, p, li {
 	// 	color: white;
@@ -550,10 +552,19 @@ article {
 }
 
 .connect {
-	border: 2px solid $color4;
-	padding: 20px 30px 30px 30px;
+	border: 2px solid $color5;
+	padding: 20px 25px 30px 25px;
 	max-width: 315px;
 	margin: 30px auto;
+	border-radius: 3px;
+}
+
+.color4-border {
+	border: 2px solid $color4;
+}
+
+.padding-after {
+	padding-bottom: .8em;
 }
 
 // FOOTER -------------------------------------------------------------
@@ -611,6 +622,7 @@ button {
     @include borderFull($color2);
     min-height: 60px;
     cursor: pointer;
+    border-radius: 3px;
 
     a {
     	padding: 15px;

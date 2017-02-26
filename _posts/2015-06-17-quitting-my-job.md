@@ -20,7 +20,7 @@ Six weeks, has it really only been six weeks? It seems more like 3 months since 
 
 ### Overall Feeling?
 
-##ECSTATIC
+## ECSTATIC
 
 Yes, ecstatic, and with no job or cash flow, yet. The reason, you ask? 
 

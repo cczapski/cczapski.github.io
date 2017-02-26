@@ -14,7 +14,7 @@ After user interviews, S.W.O.T. (Strengths, Weaknesses, Opportunities, Threats) 
 
 Below are both small and medium device sizes for all three pages.
 
-#####Home
+##### Home
 <div class="mockups">
     <p class="goodreads-small">
         <img alt="Goodreads small home page design" src="/images/work/goodreads/goodreads_mockup_home-01.png">  
@@ -24,7 +24,7 @@ Below are both small and medium device sizes for all three pages.
     </p>
 </div>
 
-#####My Books
+##### My Books
 <div class="mockups">
     <p class="goodreads-small">
         <img alt="Goodreads small My Books page design" src="/images/work/goodreads/goodreads_mockup_books-01.png">  
@@ -34,7 +34,7 @@ Below are both small and medium device sizes for all three pages.
     </p>
 </div>
 
-#####My Profile
+##### My Profile
 <div class="mockups">
     <p class="goodreads-small">
         <img alt="Goodreads small My Profile page design" src="/images/work/goodreads/goodreads_mockup_profile-01.png">  

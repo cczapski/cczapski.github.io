@@ -15,3 +15,5 @@ markdown: kramdown
 # Pagination
 paginate: 1
 paginate_path: "/blog/page:num/"
+
+excerpt_separator: ""
