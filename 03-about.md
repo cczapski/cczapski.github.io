@@ -10,11 +10,11 @@ permalink: /about/
    <!--  <h2 id="About">{{page.title}}</h2>
   
  -->
-    <div class="about-me">
+    <!-- <div class="about-me">
         <div class="about-container">
             <div class="about-summary">
                 <!-- <h3>Casie Czapski</h3> -->
-                <h4><span class="dark-blue">DESIGNER</span> and . . . </h4>
+                <!-- <h4><span class="dark-blue">UX DESIGNER</span> and . . . </h4>
                 <div>
                     <ul>
                         <li>dog lover</li>
@@ -28,10 +28,10 @@ permalink: /about/
                 </div> 
             </div>
             <div class="about-photo">
-                <img alt="Casie Czapski" src="/images/casie2.jpg">
+                <img alt="Casie Mattrisch" src="/images/casie2.jpg">
             </div>
         </div>
-    </div>
+    </div> --> 
     <div class="more-container">
         <div class="more-about">
             <h4>Hi! I'm Casie,</h4>
@@ -42,9 +42,8 @@ permalink: /about/
         <div class="connect color4-border">
             <h4>Skills & Tools</h4>
             <ul>
-                <li class="padding-after">Sketching, Wireframing, Prototyping</li>
+                <li class="padding-after">Information Architecture, User Flows, Research, Usability Testing, Sketching, Wireframing, Prototyping</li>
                 <li class="padding-after">Pen & Paper, Sketch, Illustrator, Photoshop, InVision</li>
-                <li class="padding-after">Slack, HipChat, Jira, Confluence</li>
                 <li class="padding-after">HTML, CSS, Sass</li>
                 <li>Introductory Javascript, jQuery, Ember, Jekyll</li>
             </ul>
