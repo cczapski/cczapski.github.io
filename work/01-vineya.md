@@ -24,10 +24,10 @@ nonproprietary work I’ve completed on Vineya.
     <h4><a href="/work/vineya/consistency-in-style">Consistency in Style</a></h4>
     <p>I believe the title is self-explanatory. <a href="/work/vineya/consistency-in-style">Take a look</a> at the static Style Guide for Vineya.</p>
 </div>
-
+<!-- 
 <div class="product-link">
     <h4><a href="/work/vineya/preventing-user-error">Preventing User Error</a></h4>
     <p>Easily entering a job date and time when creating an interpreting job is a critical task for agency and business users, one that I originally did not solve for appropriately. <a href="/work/vineya/preventing-user-error">Check out</a> my improved solution.</p>
-</div>
+</div> -->
 
 If you happen to be a member of the deaf or hard of hearing community, an ASL interpreter, an employee with an ASL interpreting agency or a business that contracts with an ASL interpreting agency, feel free to checkout the product at <a href="https://govineya.com/" target="_blank">www.govineya.com</a> or in the iOS app store, Vineya!

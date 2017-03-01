@@ -3,8 +3,6 @@ layout: product-work
 project: Consistency in Style
 permalink: /work/vineya/consistency-in-style
 technologies: Sketch
-next: /work/vineya/preventing-user-error
-next_title: Preventing User Error
 previous: /work/vineya/what-is-vineya
 previous_title: What is Vineya?
 ---
