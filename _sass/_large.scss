@@ -29,7 +29,7 @@
 	}
 
 	.home {
-		#radlibs, #csszen {
+		#radlibs, #csszen, #worldteach {
 			margin-left: 6%;
 		}
 	}
@@ -41,6 +41,10 @@
 			max-width: 800px;
 			margin: 0 auto;
 		}
+	}
+
+	.post {
+		margin-top: 10%;
 	}
 
 	.small {
@@ -67,6 +71,5 @@
 		float: right;
 		max-width: 600px;
 	}
-
 
 } //end of media query
