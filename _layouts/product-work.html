@@ -17,25 +17,29 @@ layout: default
 
 		{{ content }}
 
-		{% if page.previous %}
-		<button class="back">
-			<a href="{{ page.previous }}">{{ page.previous_title }}</a>
-		</button>
-		<button class="next">
-			<a href="{{ page.next }}">{{ page.next_title }}</a>
-		</button>
-		{% else if page.next %}
 		<button class="back">
 			<a href="/work/vineya/">Back to Vineya</a>
 		</button>
-		<button class="next">
-			<a href="{{ page.next }}">{{ page.next_title }}</a>
-		</button>
+
+<!-- 		{% if page.previous & page.next %}
+			<button class="back">
+				<a href="{{ page.previous }}">{{ page.previous_title }}</a>
+			</button>
+			<button class="next">
+				<a href="{{ page.next }}">{{ page.next_title }}</a>
+			</button>
+		{% elsif page.next %}
+			<button class="back">
+				<a href="/work/vineya/">Back to Vineya</a>
+			</button>
+			<button class="next">
+				<a href="{{ page.next }}">{{ page.next_title }}</a>
+			</button>
 		{% else %}
-		<button class="back">
-			<a href="/work/vineya/">Back to Vineya</a>
-		</button>
-		{% endif %}
+			<button class="back">
+				<a href="/work/vineya/">Back to Vineya</a>
+			</button>
+		{% endif %} -->
 
 	</article>
 
