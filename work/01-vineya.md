@@ -30,4 +30,10 @@ nonproprietary work I’ve completed on Vineya.
     <p>Easily entering a job date and time when creating an interpreting job is a critical task for agency and business users, one that I originally did not solve for appropriately. <a href="/work/vineya/preventing-user-error">Check out</a> my improved solution.</p>
 </div>
 
+<div class="product-link">
+    <h4><a href="/work/vineya/client-onboarding">Client Onboarding</a></h4>
+    <p>We currently have very limited deaf and hard of hearing client access to the applications, but do allow these users to access the iOS application for Vineya VRI (video remote interpreting) jobs. <a href="/work/vineya/client-onboarding">Here's a look</a> into onboarding these clients in the iOS app.</p>
+</div>
+
+
 If you happen to be a member of the deaf or hard of hearing community, an ASL interpreter, an employee with an ASL interpreting agency or a business that contracts with an ASL interpreting agency, feel free to checkout the product at <a href="https://govineya.com/" target="_blank">www.govineya.com</a> or in the iOS app store, Vineya!
