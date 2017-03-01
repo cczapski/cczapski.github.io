@@ -94,6 +94,10 @@ ol {
 	margin-left: 60px;
 }
 
+.small-note {
+	@include font(.9);
+}
+
 //Border mixins 
 @mixin borderFull($color) {
 	border: 2px solid $color;
