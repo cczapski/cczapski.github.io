@@ -20,7 +20,17 @@ header, nav, ul {
 
 header {
 	padding-bottom: 15px;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
 	@include borderBottom($color2);
+
+	-webkit-box-shadow: -1px 2px 11px 1px rgba(214,220,223,1);
+	-moz-box-shadow: -1px 2px 11px 1px rgba(214,220,223,1);
+	box-shadow: -1px 2px 11px 1px rgba(214,220,223,1);
 
 	h1, h4, nav {
 		display: inline-block;
@@ -105,6 +115,7 @@ header {
 .post {
 	max-width: 1200px;
 	margin: 0 auto;
+	margin-top: 20%;
 	margin-bottom: 30px;
 }
 
@@ -112,6 +123,10 @@ header {
 	overflow: hidden;
 	max-width: 800px;
 	margin: 0 auto;
+}
+
+.about-content {
+	margin-top: 8%;
 }
 
 .page {
@@ -144,6 +159,27 @@ header {
 
 #About {
 	@include borderLeft($color2);
+}
+
+#vineya {
+	background: url("../images/vineya.png");
+	background-size: cover;
+	background-position: center;
+
+	&:hover {
+		background: 
+			linear-gradient(
+				rgba(31, 181, 243, 0.7),
+				rgba(31, 181, 243, 0.7)
+			),
+			url("../images/vineya.png");
+		background-size: cover;
+		background-position: center;
+
+		.project-title {
+			opacity: 1;
+		}
+	}
 }
 
 #worldteach {
@@ -440,6 +476,27 @@ header {
 	}
 }
 
+.product-link {
+	margin-left: 30px;
+	max-width: 650px;
+	
+	h4 {
+		padding-left: 0;
+		margin-bottom: 0;
+
+		a {
+			color: $color2;
+			border-bottom: none;
+			padding-left: 0;
+
+			&:hover {
+				color: $color5;
+			}	
+		}
+	}
+
+}
+
 article {
 	overflow: hidden;
 
@@ -465,6 +522,11 @@ article {
 	p {
 		text-align: center;
 	}
+}
+
+
+.vineya-preview {
+	max-width: 600px; 
 }
 
 .devices {
@@ -502,6 +564,12 @@ article {
 	max-width: 300px;
 	margin: 0 auto;
 	padding: 0 30px 30px 30px;
+}
+
+.vineya-style-guide {
+	a {
+		border-bottom: none;
+	}
 }
 
 .header-snapshot {
@@ -543,7 +611,8 @@ article {
 	border: 2px solid $color5;
 	overflow: hidden;
 	padding: 30px;
-	margin: 30px auto;
+	margin: 17% auto;
+	margin-bottom: 25%;
 	max-width: 800px;
 	border-radius: 3px;
 
@@ -712,7 +781,7 @@ button {
 	}
 }
 
-.back {
+.next {
 	float: right;
 	background: white;
 
@@ -726,5 +795,18 @@ button {
 
 	&:hover {
 		background: $color2;
+	}
+}
+
+.back {
+	float: left;
+	background: white;
+
+	a {
+		color: $color2;
+	}
+
+	&:hover {
+		color: white;
 	}
 }
