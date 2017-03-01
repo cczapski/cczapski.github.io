@@ -3,8 +3,6 @@ layout: product-work
 project: Consistency in Style
 permalink: /work/vineya/consistency-in-style
 technologies: Sketch
-previous: /work/vineya/what-is-vineya
-previous_title: What is Vineya?
 ---
 ##### Vineya Style Guide
 
@@ -17,3 +15,5 @@ Clicking the image will take you to a more legible PDF copy, especially for you 
 <p class="vineya-style-guide">
     <a href="/images/work/vineya/vineya_style_guide.pdf" target="_blank"><img alt="Vineya Style Guide" src="/images/work/vineya/vineya_style_guide.png"></a>
 </p>
+
+<p class="italic small-note">Have any thoughts, ideas, feedback? I love to discuss my work, so <a href="mailto:casiemattrisch@gmail.com">let me know</a>!</p>

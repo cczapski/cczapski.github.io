@@ -2,7 +2,7 @@
 layout: product-work
 project: Preventing User Error
 permalink: /work/vineya/preventing-user-error
-technologies: Research, Pen & Paper, Sketch
+technologies: Research, Pen & Paper, Sketch, InVision
 ---
 
 <h3 class="first-h3">The Problem</h3>
@@ -82,3 +82,5 @@ We end with a much more clear entry display when jobs occur overnight, with a fe
 This particular issue allowed me to recognize the need to consider more closely what could go wrong with user input, and to anticipate user errors as much as possible for users.
 
 With a product like Vineya that contains so many different elements, I will be continually discovering problems with original and even improved upon designs, and searching for the best improvements for my users.
+
+<p class="italic small-note">Have any thoughts, ideas, feedback? I love to discuss my work, so <a href="mailto:casiemattrisch@gmail.com">let me know</a>!</p>

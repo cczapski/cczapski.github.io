@@ -2,8 +2,6 @@
 layout: product-work
 project: What is Vineya?
 permalink: /work/vineya/what-is-vineya
-next: /work/vineya/consistency-in-style
-next_title: Consistency in Style
 ---
 
 Vineya is a scheduling application that connects interpreting agencies, ASL interpreters and deaf and hard of hearing clients so that the deaf and hard of hearing community has access to interpreters whenever they need them. 
