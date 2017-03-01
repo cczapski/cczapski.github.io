@@ -6,7 +6,7 @@ permalink: /about/
 
 <!-- <div class="post"> -->
 
-  <section class="content">
+  <section class="content about-content">
    <!--  <h2 id="About">{{page.title}}</h2>
   
  -->
@@ -37,7 +37,12 @@ permalink: /about/
             <h4>Hi! I'm Casie,</h4>
             <p>A designer, a focused advocate for the user, who loves creating visually delightful interfaces that revolve around structure, logic and a little bit of common sense.</p>
             <p>I bring an acute business perspective into a designer’s world, and believe cross-functional teamwork and collaboration is key to achieving both user and organizational goals. I believe in the why and data drivers behind design decisions. I continuously seek out the best design on any project: such appropriate and effective design a user notices nothings more than ease and delight in the success of their desired outcome.</p>
-            <p>I like to be outdoorsy with my husband and sheltie pup, Blue, to host family dinners experimenting with new recipes, and to travel as often as I can. I also like to meet new people, so please, feel free to reach out! I’d be grateful to hear from you.</p>
+            <p>At my home in Austin, TX, I like to be outdoorsy with my husband and sheltie pup, Blue, to host family dinners experimenting with new recipes, and to travel as often as I can. I also like to meet new people, so please, feel free to reach out! I’d be grateful to hear from you.</p>
+            <div class="resume">
+                <button>
+                 <a href="/resume.pdf" target="_blank">See My Resum&#233;</a>
+                </button>
+            </div>
         </div>
         <div class="connect color4-border">
             <h4>Skills & Tools</h4>
@@ -56,11 +61,6 @@ permalink: /about/
                 <li>GitHub: <a href="https://github.com/cczapski">cczapski</a></li>
                 <li>Twitter: <a href="https://twitter.com/CAMattrisch">CAMattrisch</a></li>
             </ul>
-        </div>
-        <div class="resume">
-            <button>
-                <a href="/resume.pdf">See My Resum&#233;</a>
-            </button>
         </div>
     </div>
   </section>

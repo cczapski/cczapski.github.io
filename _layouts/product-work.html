@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<div id="project" class="post">
+
+	<article>
+		<div class="project-deats">
+			<h2>{{ page.project }}</h2>
+			<h5>{{ page.date }}</h5>
+
+			{% if page.technologies %}
+			<h5>Technologies & Tools</h5> <p>{{ page.technologies }}</p>
+			{% endif %}
+
+		</div>
+
+		{{ content }}
+
+		{% if page.previous %}
+		<button class="back">
+			<a href="{{ page.previous }}">{{ page.previous_title }}</a>
+		</button>
+		<button class="next">
+			<a href="{{ page.next }}">{{ page.next_title }}</a>
+		</button>
+		{% else if page.next %}
+		<button class="back">
+			<a href="/work/vineya/">Back to Vineya</a>
+		</button>
+		<button class="next">
+			<a href="{{ page.next }}">{{ page.next_title }}</a>
+		</button>
+		{% else %}
+		<button class="back">
+			<a href="/work/vineya/">Back to Vineya</a>
+		</button>
+		{% endif %}
+
+	</article>
+
+</div>

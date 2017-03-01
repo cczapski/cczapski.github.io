@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div id="project" class="post">
+
+	<div class="project-deats-container">
+		<div class="preview vineya-preview">
+			<img alt="Laptop Preview" src="{{ page.preview }}">
+		</div>
+	</div>
+
+	<article>
+		<div class="project-deats">
+			<h2>{{ page.project }}</h2>
+			<h5>{{ page.date }}</h5>
+			<p>{{ page.intro }}</p>
+			{% if page.pages %}
+	          <h5>Pages</h5>
+	          <p>{{ page.pages }}</p>
+	        {% endif %}
+		</div>
+		<h3 class="first-h3">Brief Overview</h3>
+		<p>{{ page.short }}</p>
+		<h3 class="second-h3">Product Design</h3>
+		{{ content }}
+		<button class="back">
+			<a href="/work/">Back to All Work</a>
+		</button>
+	</article>
+
+</div>
