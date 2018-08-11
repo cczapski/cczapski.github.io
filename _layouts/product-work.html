@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div id="project" class="post">
+
+	<article>
+		<div class="project-deats">
+			<h2>{{ page.project }}</h2>
+			<h5>{{ page.date }}</h5>
+
+			{% if page.technologies %}
+			<h5>Technologies & Tools</h5> <p>{{ page.technologies }}</p>
+			{% endif %}
+
+		</div>
+
+		{{ content }}
+
+		<button class="back">
+			<a href="/work/vineya/">Back to Vineya</a>
+		</button>
+
+	</article>
+
+</div>

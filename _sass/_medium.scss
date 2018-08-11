@@ -1,0 +1,112 @@
+@media screen and (min-width: 560px) {
+
+	.work-container {
+		max-width: 800px;
+		margin: 0 auto;
+		margin-bottom: 45px;
+	}
+
+	.portfolio-image {
+		min-height: 500px;
+
+		h3 {
+			padding-top: 140px;
+		}
+	}
+
+	.work {
+		.portfolio-image {
+			h3 {
+				padding-top: 180px;
+			}
+		}
+	}
+
+	.project-title {
+		a {
+			padding-top: 180px;
+		}
+	}
+
+	.work-buttons {
+		max-width: 400px;
+		margin: 0 auto;
+	}
+
+	.vintage-travel {
+		width: 50%;
+		float: right;
+	}
+
+	.de-stijl-piece {
+		float: right;
+		margin-left: 15px;
+	}
+
+	.type-sample {
+		float: left;
+		margin-right: 15px;
+	}
+
+	.product-link {
+		margin-left: 60px;
+	}
+
+} //end of media query
+
+@media screen and (min-width: 720px) {
+
+	.page {
+		overflow: hidden;
+	}
+
+	.blog-content {
+		float: left;
+		width: 45%;
+		min-height: 380px;
+
+		&:nth-child(even) {
+			margin-left: 10%;
+		}
+	}
+
+	.about-summary {
+		float: left;
+	}
+
+	.about-photo {
+		float: right;
+	}
+
+	.more-container {
+		overflow: hidden;
+		max-width: 800px;
+		margin: 0 auto;
+
+		// .more-about, .connect {
+		// 	width: 46%;
+		// }
+
+		.more-about {
+			float: left;
+			width: 55%;
+		}
+
+		.connect {
+			margin-left: 5%;
+			float: right;
+			width: 40%;
+			max-width: 400px;
+		}
+	}
+
+	footer {
+
+		.col1, .col2, .col3 {
+			width: 50%;
+			float: left;
+			padding: 1em;
+		}
+	}
+
+} //end of media query

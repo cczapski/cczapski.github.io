@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<div class="post">
+	<div class="blog-page">
+		
+<!-- 		<div class="pagination">
+		  {% if paginator.previous_page %}
+		    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+		  {% else %}
+		    <span class="previous">Previous</span>
+		  {% endif %}
+
+		  {% if paginator.next_page %}
+		    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+		  {% else %}
+		    <span class="next ">Next</span>
+		  {% endif %}
+		</div>
+ -->
+		<section class="post-header">
+		<h1 class="post-title">{{ page.title }}</h1>
+		<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+		</section>
+
+		<article class="post-content">
+		{{ content }}
+		</article>
+		<button class="back">
+			<a href="/blog/">Back to All Posts</a>
+		</button>
+	</div>
+</div>

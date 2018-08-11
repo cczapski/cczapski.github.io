@@ -1,0 +1,16 @@
+<header>
+
+    <a href="/index.html"><h1>Casie Mattrisch</h1></a>
+    <!-- <h4>UX Designer</h4> -->
+
+
+    <nav class="nav-collapse">
+      <ul>
+      	{% for page in site.pages %}
+          {% if page.title %}
+          <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+        </ul>
+    </nav>
+</header>

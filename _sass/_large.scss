@@ -1,0 +1,75 @@
+@media screen and (min-width: 1000px) {
+	.page {
+		margin: 0 auto;
+	}
+
+	.work-container {
+		max-width: 1200px;
+	}
+
+	.home {
+		.content {
+			max-width: 1200px;
+			overflow: hidden;
+		}
+
+		.portfolio-image {
+			float: left;
+			width: 47%;
+			min-height: 400px;
+
+			&:nth-child(even) {
+				margin-left: 6%;
+			}
+		}
+
+		.blog-content {
+			min-height: 300px;
+		}
+	}
+
+	.home {
+		#radlibs, #csszen, #worldteach {
+			margin-left: 6%;
+		}
+	}
+	
+
+	//PROJECT PAGES
+	#project {
+		article {
+			max-width: 800px;
+			margin: 0 auto;
+		}
+	}
+
+	.post {
+		margin-top: 10%;
+	}
+
+	.small {
+		float: left;
+		margin-top: 40px;
+		max-width: 250px;
+	}
+
+	.medium {
+		float: right;
+		max-width: 550px;
+	}
+
+	.small-de-stijl {
+		margin-top: 80px;
+	}
+
+	.goodreads-small {
+		float: left;
+		max-width: 190px;
+	}
+
+	.goodreads-med {
+		float: right;
+		max-width: 600px;
+	}
+
+} //end of media query
