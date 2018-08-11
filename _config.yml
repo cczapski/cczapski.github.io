@@ -2,7 +2,11 @@
 title: Casie Mattrisch
 email: casiemattrisch@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
+<<<<<<< HEAD
   A passionate product professional's developmental outlet
+=======
+  A budding UX/UI designer's developmental outlet
+>>>>>>> 2b76ced7e71ce41540fc1d8ebf1110b419821850
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://cczapski.github.io.com" # the base hostname & protocol for your site
 twitter_username: CAMattrisch
