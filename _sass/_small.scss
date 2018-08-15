@@ -469,6 +469,10 @@ header {
 		@include borderLeft($color2);
 	}
 
+	.third-h3 {
+		@include borderLeft($color4);
+	}
+
 	img {
 		max-width: 100%;
 	}

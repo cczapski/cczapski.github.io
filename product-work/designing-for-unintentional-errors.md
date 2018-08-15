@@ -1,29 +1,40 @@
 ---
 layout: product-work
-project: Preventing User Error
-permalink: /work/vineya/preventing-user-error
-technologies: Research, Pen & Paper, Sketch, InVision
+case-study: Designing for Unintentional Errors
+description: Removing unintentional system errors and improving user interactions with contextual feedback
+permalink: /work/vineya/designing-for-unintentional-errors
 ---
 
 <h3 class="first-h3">The Problem</h3>
 
-During job creation, a user can create a job that spans across two days, but only for jobs that go overnight (i.e. 11:00 pm - 1:00 am) or within 24 hours of the start time. Multi-day jobs must be created in two separate jobs. Based on how the back end developers set up their data, only one day as a data point was being stored, thus requiring us to solve this circumstance with a start date entry only. 
-
-As a suggestion from a front end developer, we added a “Ends Next Day” checkbox below the start date, start time and end time inputs in the job creation form, a seemingly quick solution to the problem. 
+In an effort to allow users to create appointments without adding in a new "End Date" field (of which was deemed too complex of a back end solution at the time), a Front End developer chose to quickly solve the need by allowing the user to select an "Ends Next Day" checkbox below the Start Date, Start Time and End Time inputs to indicate and confirm that an appointment would span two days.
 
 <p>
     <img alt="Original Date/Time Picker" src="/images/work/vineya/preventing-user-error/original_date_time_picker.png">
 </p>
 
-In practice however, this was quite the opposite of a quick solution. Our quality assurance team discovered an issue, or bug, when a user would select an end time either the same or earlier than the start time, this “Ends Next Day” checkbox would automatically check without providing any error or feedback (how would the form know that’s not what the user wanted), thus causing job creators to create jobs of a incorrect or much longer duration than desired.
+A fair quick fix in theory was proving to cause many issues in practice: when a user would select an end time the same or earlier than the start time, the "Ends Next Day" checkbox would automatically check. Users were unintentionally creating appointments 24+ hours in duration.
 
-<h3 class="second-h3">The Solution</h3>
+The volume of reported user instances, the lack of a user's ability to edit the inputs themselves, and the critical appointment details impacted with this issue quickly moved this problem to the top of my improvement priority list. 
 
-Given that the date and time entry of a job are two of the most important details for a scheduling platform, I realized we needed an effective and straightforward solution. I took some time to better understand date and time inputs. I explored various solutions that are out there already, Outlook Calendar, Google Calendar, various airline flight pickers, Dribbble, Pinterest, wherever I could think to search.
+<h3 class="second-h3">The Details</h3>
 
-It turned out that Google Calendar and Southwest Airlines, despite having two entries for dates, had some great solutions to these inputs that essentially don’t even give a user a chance to input an incorrect time. I got my inspiration for an input solution mostly from these two examples.
+<h5>The Application</h5>
+Vineya for Agencies and Vineya for Businesses web applications
 
-Here's a quick walk through of the key improvements designed to prevent this particular issue, and improve upon a few other areas as well.
+<a href="/work/vineya/what-is-vineya" target="blank">What is Vineya?</a>
+
+<h5>The Users & Audience</h5>
+Appointment creators, approximately 80% of all Vineya for Agencies and Businesses users, and the primary business target market for revenue generation
+
+<h5>The Team & Role</h5>
+After identification of the problem from the Customer Service team and evaluations with the Quality Assurance team to uncover the root issue, I was responsible to design an improvement that would prevent the unintended errors when entering date and time details for an appointment and allow users to purposefully and successfully create appointments spanning two days  as desired.
+
+<h3 class="third-h3">The Approach</h3>
+
+1. Evaluate direct user feedback
+
+For a stronger understanding of the challenges faced with the user's interactions, I completed thorough evaluations of our direct user feedback received by our Customer Service team. 
 
 
 ##### Step 1: Select Date
