@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Work
-permalink: /work/
+title: UX / UI
+page-title: UX / UI
+permalink: /ux-ui/
 ---
 
 <section class="content work">

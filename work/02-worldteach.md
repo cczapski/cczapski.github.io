@@ -2,7 +2,7 @@
 layout: project
 project: WorldTeach
 project-brief: Responsive Redesign
-permalink: /work/worldteach/
+permalink: /ux-ui/worldteach/
 id: worldteach
 live: http://casiemattrisch.com/WorldTeach/
 github: https://github.com/cczapski/WorldTeach

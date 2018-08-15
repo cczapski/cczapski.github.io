@@ -2,7 +2,7 @@
 layout: product
 project: Vineya
 project-brief: Product Design, Web & iOS
-permalink: /work/vineya/
+permalink: /ux-ui/vineya/
 id: vineya
 preview: /images/vineya_white.png
 technologies: Pen & Paper, Adobe Illustrator, Sketch, InVision, Jira, HTML, CSS, Ember, Github

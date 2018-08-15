@@ -2,7 +2,7 @@
 layout: project
 project: Radlibs
 project-brief: Team Hackathon
-permalink: /work/radlibs/
+permalink: /ux-ui/radlibs/
 id: radlibs
 live: http://radlib.herokuapp.com/
 github: https://github.com/cczapski/Radlibs

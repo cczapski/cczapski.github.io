@@ -2,7 +2,7 @@
 layout: project
 project: Goodreads
 project-brief: UI Design Principles
-permalink: /work/goodreads/
+permalink: /ux-ui/goodreads/
 id: goodreads
 github: https://github.com/cczapski/Goodreads
 preview: /images/work/goodreads/home_laptop_goodreads.png

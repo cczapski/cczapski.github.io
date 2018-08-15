@@ -2,7 +2,7 @@
 layout: project
 project: CSS Zen Garden
 project-brief: Power of CSS
-permalink: /work/csszen/
+permalink: /ux-ui/csszen/
 id: csszen
 live: http://casiemattrisch.com/CSS-Zen-Garden/
 github: https://github.com/cczapski/CSS-Zen-Garden

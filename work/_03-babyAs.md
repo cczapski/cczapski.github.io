@@ -1,7 +1,7 @@
 ---
 layout: project
 project: Baby A's Redesign
-permalink: /work/babyAs/
+permalink: /ux-ui/babyAs/
 id: babyAs
 live: http://casieczapski.com/Baby-Acapulco-Redesign/
 github: https://github.com/cczapski/Baby-Acapulco-Redesign

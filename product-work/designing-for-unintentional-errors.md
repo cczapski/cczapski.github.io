@@ -30,12 +30,43 @@ Appointment creators, approximately 80% of all Vineya for Agencies and Businesse
 <h5>The Team & Role</h5>
 After identification of the problem from the Customer Service team and evaluations with the Quality Assurance team to uncover the root issue, I was responsible to design an improvement that would prevent the unintended errors when entering date and time details for an appointment and allow users to purposefully and successfully create appointments spanning two days  as desired.
 
+<h5>The Tools & Methods</h5>
+Pen & Paper, Sketch, Invision, Jira, Direct User Feedback, Usability Research, Sketching & High Fidelity Comps
+
 <h3 class="third-h3">The Approach</h3>
 
-1. Evaluate direct user feedback
+##### 1. Evaluate direct user feedback
 
 For a stronger understanding of the challenges faced with the user's interactions, I completed thorough evaluations of our direct user feedback received by our Customer Service team. 
 
+##### 2. Self test
+Only slightly familiar with the FE developer's implemented solution, I tested the appointment creation form several times for a better grasp on the design limitations that led to the frequent error. It was easy to identify how a user could make this error: contextual feedback about the automatic system selection of "Ends Next Day" based on the user's input was completely non-existent. Unless you had double checked your entries, start times, end times, and AM/PM selections, and visibly noticed the small checkbox selected underneath entries, it was quite easy to overlook the system's automated selection.
+
+##### 3. Outline the solution goals
+To ensure a proposed solution meets the proper needs of the issue, I find it critical and helpful to outline solution goals:
+
+<ol type="a">
+  <li>Allow a user to intentionally and intuitively create an appointment that spans two days</li>
+  <li>Prevent a user from creating an appointment with an unintended duration</li>
+  <li>Provide contextual feedback and direction in response to pre-form submission entries</li>
+  <li>Develop a solution with one date entry per BE development constraints</li>
+</ol>
+
+##### 4. Explore similar applications and ideate various solutions
+I frequently look to existing and similar applications for inspiration on how certain challenges have been solved before. In this instance, I evaluated several websites and applications with a focused date/time input: Outlook Calendar, Google Calendar, and various airline websites. 
+    
+I found that Google Calendar and Southwest.com had particularly interesting solutions with applicable pieces to build off of. With the unique challenge of having only a Start Date input, I iterated through sketches of various options and user flows with inspiration from these existing solutions.
+
+##### 5. Generate high fidelity user flows
+With our consistent visual styling already established for each application, I find it helpful and quick to produce high fidelity user flows to test against. Importing application specific Sketch style guides and symbols truly increases efficiency in accomplishing this process. 
+
+##### 6. Validate potential solution
+Once added to InVision, I presented the user flows to our QA team for testing against the solution goals and overall improvement from the baseline solution. As is often the case, QA helped identify some "what if" scenarios of user inputs, taking me back to steps four and five to update and include important potential user entries in the solution. 
+
+##### 7. Finalize solution
+After a couple of cyclical iterations and testing of steps four, five, and six, we were able to successfully identify and finalize an enhanced solution that touched on a handful of smaller improvements as well. 
+
+<h3 class="first-h3">The Solution</h3>
 
 ##### Step 1: Select Date
 Here a user can either type in the date in the "MM/DD/YY" format, or select a date from the drop down calendar.
@@ -93,5 +124,16 @@ We end with a much more clear entry display when jobs occur overnight, with a fe
 This particular issue allowed me to recognize the need to consider more closely what could go wrong with user input, and to anticipate user errors as much as possible for users.
 
 With a product like Vineya that contains so many different elements, I will be continually discovering problems with original and even improved upon designs, and searching for the best improvements for my users.
+
+<h3 class="second-h3">The Learnings</h3>
+
+##### Evaluate all solutions, no matter how quick of a fix they may seem to be
+Although quick, untested improvements are often necessary evils in a fast-paced, agile world, they can lead to critical and unintended errors. Seeing the issues occur from this instance has led me to think twice before signing off on a quick solution, especially if the updates are being made to critical aspects of a user's flow, no matter how trivial they may seem at the time. 
+
+##### Take time to design and develop contextual feedback, especially in critical forms
+Even with the use of an "Ends Next Day" checkbox as a solution to our problem, the addition of feedback could have prevented many of the errors that users encountered from the quick fix. It's critical to inform any user key information about their interactions to ensure they're achieving their ultimate goals while using a product. 
+
+##### Identify their strengths and collaborate with team members to improve the process and the solution
+Through the design process, I discovered how useful QA engineers could be while validating a solution. As a designer, I consider myself to be fairly attuned to user behavior, but often forget about those unexpected "what if" interactions from atypical user paths. Collaborating with our QA team, who focus daily on anticipating all the things a user could try to do to create some sort of bug in the system,  allowed me to develop a more well-rounded, straight-forward solution. I continue to involve their expertise in my process to this day.
 
 <p class="italic small-note">Have any thoughts, ideas, feedback? I love to discuss my work, so <a href="mailto:casiemattrisch@gmail.com">let me know</a>!</p>
