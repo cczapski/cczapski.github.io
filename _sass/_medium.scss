@@ -70,13 +70,13 @@
 		}
 	}
 
-	.about-summary {
-		float: left;
-	}
+	.left {
+			float: left;
+		}
 
-	.about-photo {
-		float: right;
-	}
+		.right {
+			float: right
+		}
 
 	.more-container {
 		overflow: hidden;
@@ -107,6 +107,32 @@
 			float: left;
 			padding: 1em;
 		}
+	}
+
+} //end of media query
+
+@media screen and (max-width: 882px) {
+
+	.summary-container {
+		max-width: 500px;
+
+		.summary-photo, .summary-header {
+			float: none;
+			margin: 0 auto;
+
+			img {
+				width: 100%;
+			}
+
+			h2 {
+				@include font(1.8);
+			}
+		}
+
+		.summary-photo {
+
+		}
+
 	}
 
 } //end of media query

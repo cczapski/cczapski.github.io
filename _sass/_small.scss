@@ -132,6 +132,7 @@ header {
 .page {
 	overflow: hidden;
 	margin-bottom: 60px;
+	max-width: 800px;
 
 	button {
 		float: right;
@@ -149,17 +150,80 @@ header {
 
  }
 
-#Work {
-	@include borderLeft($color4);
+ .summary-container {
+	margin: 0 auto;
+	overflow: hidden;
+
+	&:hover {
+		-webkit-transform: scale(1.05);
+    	-ms-transform: scale(1.05);
+    	transform: scale(1.05);
+
+    	h2 {
+	    	color: $color2;
+	    	font-weight: 600;
+	    }
+	}
 }
 
-#Blog {
+.summary-container:hover {
+	-webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+#UX-UI {
+	@include borderLeft($color4);
+	font-weight: 300;
+}
+
+#PM {
 	@include borderLeft($color5);
+	font-weight: 300;
 }
 
 #About {
 	@include borderLeft($color2);
 }
+
+.vineya-link {
+	font-family: 'ff-enzo-web', sans-serif;
+	font-size: 22px;
+	font-style: italic;
+	margin-left: 30px;
+
+	a {
+		border-bottom: none;
+		color: $color2;
+
+		&:hover {
+			color: $color5;
+		}
+	}
+}
+
+.center-image {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+//image effect
+.img-shadow {
+	-webkit-box-shadow: 0px 0px 10px -1px rgba(219,212,219,1);
+	-moz-box-shadow: 0px 0px 10px -1px rgba(219,212,219,1);
+	box-shadow: 0px 0px 10px -1px rgba(219,212,219,1);
+
+	margin: 10px;
+}
+
+.img-shadow-dark {
+	-webkit-box-shadow: 0px 0px 22px 0px rgba(212,210,212,1);
+	-moz-box-shadow: 0px 0px 22px 0px rgba(212,210,212,1);
+	box-shadow: 0px 0px 22px 0px rgba(212,210,212,1);
+
+	margin: 10px;
+}
+//end image effect
 
 #vineya {
 	background: url("../images/vineya.png");
@@ -367,6 +431,27 @@ header {
 	}
 }
 
+.work-summary {
+	min-height: 250px;
+	max-width: 800px;
+	margin: 45px auto;
+	overflow: hidden;
+	position: relative;
+	border-radius: 3px;
+	text-align: center;
+
+	.top-15 {
+		margin-top: 120px;
+	}
+
+}
+
+.summary-header {
+	max-width: 260px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
 .blog-container {
 	margin-top: 30px;
 	max-width: 800px;
@@ -467,6 +552,10 @@ header {
 
 	.second-h3 {
 		@include borderLeft($color2);
+	}
+
+	.third-h3 {
+		@include borderLeft($color4);
 	}
 
 	img {
@@ -737,16 +826,17 @@ button {
 
     display: inline-block;
 	vertical-align: middle;
+
 	transform: translateZ(0);
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-	backface-visibility: hidden;
-	-moz-osx-font-smoothing: grayscale;
-	transition-duration: 0.3s;
+	// box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	// backface-visibility: hidden;
+	// -moz-osx-font-smoothing: grayscale;
+	transition-duration: 0.2s;
 	transition-property: transform;
 	transition-timing-function: ease-out;
 
     a {
-    	padding: 15px;
+    	padding: 5px;
         color: white;
         @include font(1.4); 
         border-bottom: none;
@@ -765,7 +855,8 @@ button {
     }
 
     &:hover, &:focus, &:active {
-  		transform: translateY(-8px);	
+  		// transform: translateY(-8px);	
+  		transform: scale(1.05);
     }
 }
 

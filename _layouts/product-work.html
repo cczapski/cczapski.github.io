@@ -6,20 +6,16 @@ layout: default
 
 	<article>
 		<div class="project-deats">
-			<h2>{{ page.project }}</h2>
-			<h5>{{ page.date }}</h5>
+			<h2>{{ page.case-study }}</h2>
+			<p class="description">{{ page.description }}</p>
 
-			{% if page.technologies %}
+			<!-- {% if page.technologies %}
 			<h5>Technologies & Tools</h5> <p>{{ page.technologies }}</p>
-			{% endif %}
+			{% endif %} -->
 
 		</div>
 
 		{{ content }}
-
-		<button class="back">
-			<a href="/work/vineya/">Back to Vineya</a>
-		</button>
 
 	</article>
 
