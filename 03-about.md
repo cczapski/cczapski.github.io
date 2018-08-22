@@ -48,7 +48,7 @@ permalink: /about/
             <h4>Skills & Tools</h4>
             <ul>
                 <li class="padding-after">Research, User Interviews, Usability Testing, Data Analysis, Information Architecture, User Stories & Flows, Sketching, Wireframing, Prototyping, SaaS, Responseive, & iOS Design</li>
-                <li class="padding-after">Pen & Paper, Post Its, Whiteboard, Microsoft Office, User Testing, Survey Monkey, Google Analytics, Sketch, Illustrator, Photoshop, InVision, Jira, Confluence, Github</li>
+                <li class="padding-after">Pen & Paper, Post Its, Whiteboard, Microsoft Office, User Testing, SurveyMonkey, Google Analytics, Sketch, Illustrator, Photoshop, InVision, Jira, Confluence, Github</li>
                 <li>HTML, CSS, Sass, Introductory Javascript, jQuery, Ember, Jekyll</li>
             </ul>
         </div>
@@ -56,9 +56,9 @@ permalink: /about/
             <h4>Connect with Me</h4>
             <ul>
                 <li>Email: <a href="mailto:casiemattrisch@gmail.com">casiemattrisch@gmail.com</a></li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/casiemattrisch">casiemattrisch</a></li>
-                <li>GitHub: <a href="https://github.com/cczapski">cczapski</a></li>
-                <li>Twitter: <a href="https://twitter.com/CAMattrisch">CAMattrisch</a></li>
+                <li>LinkedIn: <a target="blank" href="https://www.linkedin.com/in/casiemattrisch">casiemattrisch</a></li>
+                <li>GitHub: <a target="blank" href="https://github.com/cczapski">cczapski</a></li>
+                <li>Twitter: <a target="blank" href="https://twitter.com/CAMattrisch">CAMattrisch</a></li>
             </ul>
         </div>
     </div>

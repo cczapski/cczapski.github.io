@@ -4,25 +4,22 @@ case-study: Designing for Unintentional Errors
 description: Removing unintentional system errors and improving user interactions with contextual feedback
 permalink: /uxui/designing-for-unintentional-errors
 ---
-
 <h3 class="first-h3">The Problem</h3>
 
 In an effort to allow users to create appointments without adding in a new "End Date" field (of which was deemed too complex of a back end solution at the time), a Front End developer chose to quickly solve the need by allowing the user to select an "Ends Next Day" checkbox below the Start Date, Start Time and End Time inputs to indicate and confirm that an appointment would span two days.
 
 <p>
-    <img alt="Original Date/Time Picker" src="/images/work/vineya/preventing-user-error/original_date_time_picker.png">
+    <img class="img-shadow" alt="Ends Next Day Date & Time Input" src="/images/work/uxui/unintentional-errors/00_original_date_time_entry.png">
 </p>
 
 A fair quick fix in theory was proving to cause many issues in practice: when a user would select an end time the same or earlier than the start time, the "Ends Next Day" checkbox would automatically check. Users were unintentionally creating appointments 24+ hours in duration.
 
-The volume of reported user instances, the lack of a user's ability to edit the inputs themselves, and the critical appointment details impacted with this issue quickly moved this problem to the top of my improvement priority list. 
+The volume of reported user instances, the lack of a user's ability to edit the inputs themselves after creating the appointment, and the critical appointment details impacted with this issue quickly moved this problem to the top of my improvement priority list. 
 
 <h3 class="second-h3">The Details</h3>
 
 <h5>The Application</h5>
-Vineya for Agencies and Vineya for Businesses web applications
-
-<a href="/work/vineya/what-is-vineya" target="blank">What is Vineya?</a>
+<a href="/work/what-is-vineya" target="blank">Vineya</a> for Agencies and Vineya for Businesses web applications
 
 <h5>The Users & Audience</h5>
 Appointment creators, approximately 80% of all Vineya for Agencies and Businesses users, and the primary business target market for revenue generation
@@ -40,7 +37,9 @@ Pen & Paper, Sketch, Invision, Jira, Direct User Feedback, Usability Research, S
 For a stronger understanding of the challenges faced with the user's interactions, I completed thorough evaluations of our direct user feedback received by our Customer Service team. 
 
 ##### 2. Self test
-Only slightly familiar with the FE developer's implemented solution, I tested the appointment creation form several times for a better grasp on the design limitations that led to the frequent error. It was easy to identify how a user could make this error: contextual feedback about the automatic system selection of "Ends Next Day" based on the user's input was completely non-existent. Unless you had double checked your entries, start times, end times, and AM/PM selections, and visibly noticed the small checkbox selected underneath entries, it was quite easy to overlook the system's automated selection.
+Only slightly familiar with the FE developer's implemented solution, I tested the appointment creation form several times for a better grasp on the design limitations that led to the frequent error. 
+
+It was easy to identify how a user could make this error: contextual feedback about the automatic system selection of "Ends Next Day" based on the user's input was completely non-existent. Unless you had double checked your entries, start times, end times, and AM/PM selections, and visibly noticed the small checkbox selected underneath entries, it was quite easy to overlook the system's automated selection.
 
 ##### 3. Outline the solution goals
 To ensure a proposed solution meets the proper needs of the issue, I find it critical and helpful to outline solution goals:
@@ -69,61 +68,72 @@ After a couple of cyclical iterations and testing of steps four, five, and six, 
 <h3 class="first-h3">The Solution</h3>
 
 ##### Step 1: Select Date
-Here a user can either type in the date in the "MM/DD/YY" format, or select a date from the drop down calendar.
+A user has the option to type in a date in any format that they choose or select a date from the drop down calendar, with the system auto-formatting the input after selection to a "DoW, Month Day, Year" format. 
+
+<p class="italic small-note">Date Display Improvement: The updated date display helps users to confirm the date they select matches the day of the week. An appointment creator could easily mistake Friday, June 25th for Friday, June 24th when requesting a job, and now they can visually confirm and correct as needed.</p>
 
 <p>
-    <img class="pue-images" alt="Step 1: Select Date" src="/images/work/vineya/preventing-user-error/01_select_start_date.png">
+    <img class="img-shadow" alt="Step 1: Select Date" src="/images/work/uxui/unintentional-errors/01_select_start_date.png">
 </p>
 
 ##### Step 2: Select Start Time, Default Drop Down
 As a user tabs or clicks over to the start time, the time drop down defaults to 7:00 am, the standard hours start time for jobs. Users can either type in or scroll to enter the start time.
 
-<p class="italic small-note">Date Display Improvement: Note the date display shows the day of the week, month, date of the week and year rather than the MM/DD/YY format. This display helps users to confirm the date they select matches the day of the week. A requestor could easily mistake Friday, June 25th for Friday, June 24th when requesting a job, and now a job creator can visually confirm and correct as needed.</p>
-
 <p>
-    <img class="pue-images" alt="Step 2: Select Start Time Default" src="/images/work/vineya/preventing-user-error/02_select_start_default.png">
+    <img class="img-shadow" alt="Step 2: Select Start Time Default" src="/images/work/uxui/unintentional-errors/02_enter_start_time_default.png">
 </p>
 
 ##### Step 3: Select Start Time, AM Limit
 The start time AM limit prevents users from selecting a start time on the previous day.
 
 <p>
-    <img class="pue-images" alt="Step 3: Select Start Time, AM Limit" src="/images/work/vineya/preventing-user-error/03_select_start_am_limit.png">
+    <img class="img-shadow" alt="Step 3: Select Start Time, AM Limit" src="/images/work/uxui/unintentional-errors/02.1_enter_start_time_am_limit.png">
 </p>
 
 ##### Step 4: Select Start Time, PM Limit
 The start time PM limit prevents users from selecting a start time for the following day.
 
 <p>
-    <img class="pue-images" alt="Step 4: Select Start Time, PM Limit" src="/images/work/vineya/preventing-user-error/04_select_start_pm_limit.png">
+    <img class="img-shadow" alt="Step 4: Select Start Time, PM Limit" src="/images/work/uxui/unintentional-errors/02.2_enter_start_time_pm_limit.png">
 </p>
+
+With either limit, a user could still manually type in times, but the built in contextual feedback (examples provided below) will help alert and correct for these scenarios as they occur.
 
 ##### Step 5: Select End Time, Default
 By default, the end time entry will start in 15 minutes increments (the required billing increments for job times), 15 minutes after the selected start time of the job. This default will prevent users from selecting an end time before a start time.
 
-<p class="italic small-note">Job Duration Display: Note the addition of the job duration next to the end times. A lot of job requestors ask for a start time and a duration rather than specifying an end time. This duration display allows job creators to reference the duraction as needed.</p>
+<p class="italic small-note">Job Duration Display: Note the addition of the job duration next to the end times. A lot of appointment creators ask for a start time and a duration rather than specifying an end time. This duration display allows job creators to reference the duration as needed.</p>
 
 <p>
-    <img class="pue-images" alt="Step 5: Select End Time Default" src="/images/work/vineya/preventing-user-error/05_select_end_default.png">
+    <img class="img-shadow" alt="Step 5: Select End Time Default" src="/images/work/uxui/unintentional-errors/03_enter_end_time_default.png">
 </p>
 
 ##### Step 6: Select End Time, PM Limit
 Lastly, we consider our 24 hour job time limit and make the last time entry 10:30 pm. 
 
 <p>
-    <img class="pue-images" alt="Step 6: Select End, PM Limit" src="/images/work/vineya/preventing-user-error/06_select_end_pm_limit.png">
+    <img class="img-shadow" alt="Step 6: Select End, PM Limit" src="/images/work/uxui/unintentional-errors/03.2_enter_end_time_pm_limit.png">
 </p>
 
-##### Step 7: Final Entry Display
+##### Step 7: "What If" Input Updates
+With guidance from QA, post-input updates to entries were considered. These scenarios were solved with the use of contextual feedback to visually alert and caution the user of the impact of their changes.
+
+If a user chooses to change time entries to a duration longer than 8 hours (anything longer than the typical and average appointment durations), they are alerted to double check their entries through the use of flash animations that gradually disappear after 10 seconds for cases when the longer durations are actually desired.
+
+<p>
+    <img class="img-shadow" alt="Step 7: What if end time changes" src="/images/work/uxui/unintentional-errors/05_change_end_time_error.png">
+</p>
+
+<p>
+    <img class="img-shadow" alt="Step 8: What if start time changes" src="/images/work/uxui/unintentional-errors/05_change_start_time_caution.png">
+</p>
+
+##### Step 8: Final Entry Display
 We end with a much more clear entry display when jobs occur overnight, with a few additional improvements along the way.
 
 <p>
-    <img class="pue-images" alt="Step 7: Final Input Entry" src="/images/work/vineya/preventing-user-error/07_final_entry.png">
+    <img class="img-shadow" alt="Step 8: Final Input Entry" src="/images/work/uxui/unintentional-errors/04_final_date_time_entry.png">
 </p>
-
-This particular issue allowed me to recognize the need to consider more closely what could go wrong with user input, and to anticipate user errors as much as possible for users.
-
-With a product like Vineya that contains so many different elements, I will be continually discovering problems with original and even improved upon designs, and searching for the best improvements for my users.
 
 <h3 class="second-h3">The Learnings</h3>
 
@@ -138,6 +148,8 @@ Through the design process, I discovered how useful QA engineers could be while 
 
 <p class="italic small-note">Have any thoughts, ideas, feedback? I love to discuss my work, so <a href="mailto:casiemattrisch@gmail.com">let me know</a>!</p>
 
-<button class="back">
-    <a href="/uxui/">Back to UX/UI Work</a>
-</button>
+<div class="resume">
+  <button class="back">
+      <a href="/ux-ui/">Back to UX/UI Work</a>
+  </button>
+</div>

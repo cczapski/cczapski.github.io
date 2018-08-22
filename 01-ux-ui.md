@@ -20,7 +20,7 @@ permalink: /ux-ui/
 		{% endif %}
 		{% endfor %} -->
 		
-		<h2 id="UX-UI">UX / UI</h2>
+		<h2 id="UX-UI">UX / UI Design</h2>
 
 		<a href="/uxui/designing-for-unintentional-errors">
 			<div class="work-summary">
@@ -46,14 +46,14 @@ permalink: /ux-ui/
 		        </div>
 		    </div>
 		</a>
-		<a href="/uxui/redesigning-for-clarify-and-purpose">
+		<a href="/uxui/improving-a-users-path-through-design">
 			<div class="work-summary">
 		        <div class="summary-container">
 		            <div class="summary-header right top-15">
-		                <h2>Redesigning for Clarity & Purpose</h2>
+		                <h2>Improving a User's Path through Design</h2>
 		            </div>
 		            <div class="summary-photo left">
-		                <img class="img-shadow" alt="Designing for Unintentional Errors" src="/images/work/uxui/redesigning/worldteach_home2.png">
+		                <img class="img-shadow" alt="Improving a User's Path through Design" src="/images/work/uxui/worldteach/worldteach_home2.png">
 		            </div>
 		        </div>
 		    </div>

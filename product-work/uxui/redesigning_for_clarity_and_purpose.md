@@ -22,7 +22,7 @@ short: WorldTeach is my final project for the accelarated UI Design course at th
 The core purpose of the WorldTeach redesign is to inspire  individuals to volunteer and support the organization's goals of making education accessible to everyone in the world, while also taking on the challenge of setting itself apart from the hundreds of competitor volunteer organizations in the world. 
 
 <p class="vintage-travel">
-    <img alt="Vintage Travel Poster" src="/images/work/worldteach/vintage_travel.jpg">  
+    <img alt="Vintage Travel Poster" src="/images/work/uxui/worldteach/vintage_travel.jpg">  
 </p>
 
 ##### Design Inspiration
@@ -35,7 +35,7 @@ This collage of vintage travel posters captures many of the elements from color 
 A quick snapshot of the main header shows a few key design elements that relate to the vintage travel theme.
 
 <p class="header-snapshot">
-    <img alt="Main WorldTeach Header Snapshot" src="/images/work/worldteach/header_snapshot.jpg">  
+    <img alt="Main WorldTeach Header Snapshot" src="/images/work/uxui/worldteach/header_snapshot.jpg">  
 </p>
 
 The WorldTeach wordmark logo inherits the script font and stamp-like texture of Rinse, a type hosted by Typekit. The buttons also take on this passport-like stamp texture, with the patterned dots as key separators inspired by stamp borders.
@@ -46,7 +46,7 @@ WorldTeach currently benefits from a wealth of useful information; however, the 
 A large focus of this project revolved around a more logical path of information and resources to improve the overall user experience. A key solution I created was to first break down the website into user sections and then to structure the content paths from those point of views and main user goals.
 
 <p class="center">
-    <img alt="User section breakdown" src="/images/work/worldteach/users.jpg">  
+    <img alt="User section breakdown" src="/images/work/uxui/worldteach/users.jpg">  
 </p>
 
 ##### Final Product
@@ -54,17 +54,19 @@ The final product achieves the main goals of inspiring and motivating through th
 
 <div class="devices">
     <p class="small">
-        <img alt="Small Device Volunteers Page" src="/images/work/worldteach/volunteers_small.png">
+        <img alt="Small Device Volunteers Page" src="/images/work/uxui/worldteach/volunteers_small.png">
     </p>
 
     <p class="medium">
-        <img alt="Medium Device Page" src="/images/work/worldteach/destinations_medium.png">
+        <img alt="Medium Device Page" src="/images/work/uxui/worldteach/destinations_medium.png">
     </p>
 </div>
 
-<button class="back">
-    <a href="/uxui/">Back to UX/UI Work</a>
-</button>
+<div class="resume">
+  <button class="back">
+      <a href="/ux-ui/">Back to UX/UI Work</a>
+  </button>
+</div>
 
 <span class="bold">For a more detailed walk through of the design process, check out <a href="/2015/08/21/final-project.html">this blog post</a>!</span>
 
